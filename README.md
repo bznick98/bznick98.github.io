@@ -4,4 +4,4 @@
 [click here to check my 500px page](http://500px.com/zbao98)
 
 http://github.com - automatic!
-[GitHub](http://github.com)
+[GitHub](http://500px.com/zbao98)
