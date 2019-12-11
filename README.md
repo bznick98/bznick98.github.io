@@ -2,5 +2,5 @@
 ## This is a README
 <p align="center"> test align center </p>
 <div align="center">
-  [click here to check my 500px page](https://500px.com/bznick98)
+  [click here to check my 500px page](https://500px.com/zbao98)
 </div>
