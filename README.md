@@ -1,5 +1,6 @@
 <h1 align="center"> Zongnan Bao </h1>
-<p align="center"> Introduction </p>
-### Currently a Junior Computer Engineering student at University of Illinois 
+<p align="center"> <b>Introduction</b> </p>
+Currently a Junior Computer Engineering student at University of Illinois 
 
-[My Personal Photography Site](http://500px.com/zbao98)
+Link to 500px:
+[Click To View My Photography Work](http://500px.com/zbao98)
