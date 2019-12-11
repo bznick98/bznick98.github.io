@@ -4,3 +4,6 @@
 <div align="center">
   [click here to check my 500px page](https://500px.com/zbao98)
 </div>
+
+http://github.com - automatic!
+[GitHub](http://github.com)
