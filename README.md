@@ -2,8 +2,5 @@
 ## This is a README
 <p align="center"> test align center </p>
 
-[click](http://google.com)
 
-[GitHub](http://500px.com/zbao98)
-
-[lol](http://google.com)
+[My Personal Photography Site](http://500px.com/zbao98)
