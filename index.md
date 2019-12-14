@@ -1,8 +1,3 @@
-<center>
-  <h1>
-    <b>Zongnan Bao</b> 
-  </h1> 
-</center>
 
 #### Objective
 
