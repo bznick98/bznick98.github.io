@@ -69,4 +69,5 @@
 
 ---
 
-* C++, C, SystemVerilog, LC-3, MATLAB, Ubuntu, Markdown, Arduino, Adobe Lightroom, Final Cut Pro, Photography
+* C++, C, SystemVerilog, LC-3, MATLAB, Ubuntu, Markdown, Arduino, Adobe Lightroom, Final Cut Pro, [Photography](https://500px.com/zbao98)
+]
