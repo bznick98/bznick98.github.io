@@ -3,3 +3,5 @@ title: Zongnan Bao
 relative_links:
   enabled:     true
   collections: false
+plugins:
+  - jekyll-relative-links
