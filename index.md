@@ -70,7 +70,7 @@
 
 
 
-TEST LINK PAGE: [to the other](new_page.md)
+TEST LINK PAGE: [to the other](photo_work.md)
 
-TEST IMAGE: ![test image](creative.png)
+TEST IMAGE: ![test image](image/creative.png)
 

@@ -2,7 +2,7 @@
 
 Best of the works:
 
-![test_image](creative.png)
+![test_image](image/creative.png)
 
 
 
