@@ -1,4 +1,4 @@
-# This is MAIN PAGE ! !
+# About me
 
 [My Resume](resume.md)
 
