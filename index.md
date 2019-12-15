@@ -67,3 +67,7 @@
 ---
 
 * C++, C, SystemVerilog, LC-3, MATLAB, Ubuntu, Markdown, Arduino, Adobe Lightroom, Final Cut Pro, Photography
+
+
+
+TEST LINK PAGE: [to the other](new_page.md)
