@@ -1,6 +1,6 @@
 # About me
 
-[My Resume](resume.md)
+[My Resume](_posts/resume.md)
 
-[My Photography Works](photo_work.md)
+[My Photography Works](_posts/photo_work.md)
 
