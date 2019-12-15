@@ -71,3 +71,6 @@
 
 
 TEST LINK PAGE: [to the other](new_page.md)
+
+TEST IMAGE: ![test image](creative.png)
+
