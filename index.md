@@ -1,6 +1,5 @@
 # About me
 
-[My Resume](_posts/resume.md)
+[My Resume]({% link pages/resume.md%})
 
-[My Photography Works](_posts/photo_work.md)
-
+[My Photography Works]({% link pages/photo_work.md %})

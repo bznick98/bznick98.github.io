@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Zongnan Bao
 relative_links:
-  enabled:     true
+  enabled:     false
   collections: false
 plugins:
   - jekyll-relative-links
