@@ -6,13 +6,13 @@ layout: post
 
 Some of the top picks:
 
-> Shot at Lake Da Qaidam, Qinghai China
+> Lake Da Qaidam, Qinghai China
 ![test_image](../assets/img/1.jpg)
 
-> Shot at Russia
+> Kremlin, Moscow Russia
 ![2](../assets/img/2.jpg)
 
-> Shot at corn field, Champaign US
+> Corn field star trail, Champaign US
 ![3](../assets/img/star_trails.jpg)
 
 ---
