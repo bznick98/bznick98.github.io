@@ -80,6 +80,7 @@ kramdown:
 
 plugins:
   - jekyll-relative-links
+  - jekyll-include-cache
 defaults:
   # _posts
   - scope:
