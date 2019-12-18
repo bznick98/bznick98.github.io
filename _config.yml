@@ -1,8 +1,35 @@
-theme: jekyll-theme-minimal
-title: Zongnan Bao
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+masthead_title: "Zongnan Bao's Website"
+logo: assets/images/profile.png
+search: true
+title:  Zongnan Bao
 relative_links:
   enabled:     false
   collections: false
 plugins:
   - jekyll-relative-links
 # remote_theme: broccolini/swiss
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+      layout: single
+      read_time: false
+      author:
+        name: "Zongnan Bao"
+        avatar: "/assets/images/profile.png"
+        bio: "From Hangzhou China, study at University of Illinois Urbana-Champaign" # Note: Markdown is allowed
+        links:
+          - label: "Github"
+            icon: "fab fa-github"
+            url: "https://github.com/bznick98"
+          - label: "Instagram"
+            icon: "fab fa-twitter-square"
+            url: "https://instagram.com/zbao98"
+          - label: "500px"
+            icon: "fab fa-500px"
+            url: "https://500px.com/zbao98"
