@@ -33,7 +33,7 @@
 
 *Maintenance Assistant*																							   	 -  *July 2018 - August 2018*
 
-* Inspect damaged outdoor trunk amplifier (used for TV signal transimission), replace out malfunctioning or burned chips, transistors and fuses.
+* Inspect damaged outdoor trunk amplifier (used for TV signal transmission), replace out malfunctioning or burned chips, transistors and fuses.
 * Using multimeter and frequency analyzer to examine the circuit board and signal functionality.
 * Assisting maintenance team, recording repair histories.
 
@@ -66,4 +66,4 @@
 
 ---
 
-* C++, C, SystemVerilog, LC-3, MATLAB, Ubuntu, Markdown, Arduino, Adobe Lightroom, Final Cut Pro, [Photography](photo_work.html)
+* C++, C, SystemVerilog, LC-3, MATLAB, Ubuntu, jekyll, Markdown, Arduino, Adobe Lightroom, Final Cut Pro, [Photography](photo_work.html)

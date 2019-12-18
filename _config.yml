@@ -5,3 +5,4 @@ relative_links:
   collections: false
 plugins:
   - jekyll-relative-links
+# remote_theme: broccolini/swiss
