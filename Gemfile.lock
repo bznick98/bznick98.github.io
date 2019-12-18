@@ -280,7 +280,6 @@ DEPENDENCIES
   jekyll-include-cache
   jekyll-paginate
   jekyll-sitemap
-  jekyll-theme-minimal
   jemoji
   minimal-mistakes-jekyll
   tzinfo (~> 1.2)
