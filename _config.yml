@@ -1,4 +1,4 @@
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 masthead_title: "Zongnan Bao's Website"
 logo: assets/images/profile.png
@@ -9,7 +9,7 @@ relative_links:
   collections: false
 plugins:
   - jekyll-relative-links
-# remote_theme: broccolini/swiss
+remote_theme: "mmistakes/minimal-mistakes@4.17.2
 defaults:
   # _posts
   - scope:

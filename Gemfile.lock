@@ -255,6 +255,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
+  jekyll-include-cache
   jekyll-relative-links
   jekyll-theme-minimal
   minimal-mistakes-jekyll
