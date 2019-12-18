@@ -81,6 +81,10 @@ kramdown:
 plugins:
   - jekyll-relative-links
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 defaults:
   # _posts
   - scope:
