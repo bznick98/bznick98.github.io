@@ -34,3 +34,10 @@ defaults:
           - label: "500px"
             icon: "fab fa-500px"
             url: "https://500px.com/zbao98"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
