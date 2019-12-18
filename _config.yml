@@ -10,6 +10,16 @@ relative_links:
   enabled:     false
   collections: false
 
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # Reading Files
 include:
