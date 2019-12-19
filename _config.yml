@@ -3,7 +3,7 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 masthead_title: "Zongnan Bao's Website"
-logo: assets/images/profile.png
+logo: assets/images/profile.jpg
 search: true
 title:  Zongnan Bao
 github_username: bznick98

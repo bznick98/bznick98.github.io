@@ -2,7 +2,7 @@
 masthead_title: "Zongnan Bao's Page"
 excerpt: "This is my personal website, thanks for visiting!"
 header:
-  overlay_image: /assets/images/home_background.png
+  overlay_image: /assets/images/home-bg.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Learn more: [**Lake Da Qaidam**](../../pages/photo_work.html)"
 
