@@ -63,9 +63,6 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-permalink: /:categories/:title/
-
-
 # Markdown Processing
 kramdown:
   input: GFM
@@ -96,6 +93,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+
 defaults:
   # _posts
   - scope:
