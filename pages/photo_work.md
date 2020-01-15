@@ -11,6 +11,38 @@ header:
 intro:
   - excerpt: "This is a collection of my favorite shots."
 feature_row:
+  - image_path: ../assets/images/BlueFire.jpg
+    alt: "BlueFire"
+    title: "Blue Fire at Ijen, Java, Indonesia"
+    excerpt: "In the crater of Mount Ijen(An active volcano)."
+    url: "pages/404.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: ../assets/images/FoggyBromo.jpg
+    alt: "FoggyBromo"
+    title: "Foggy Mount Bromo"
+    excerpt: "It was a foggy day and we weren't able to see the full Mount Bromo."
+    url: "pages/404.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: ../assets/images/FoggyBromoHorse.jpg
+    alt: "FoggyBromo"
+    title: "Foggy Mount Bromo"
+    excerpt: "The man with the horse in the fog."
+    url: "pages/404.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: ../assets/images/IjenMount.jpg
+    alt: "IjenMount"
+    title: "Mount Ijen"
+    excerpt: "Standing at the edge of the crater."
+    url: "pages/404.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
   - image_path: ../assets/images/lake.jpg
     alt: "Lake Da Qaidam"
     title: "Lake Da Qaidam"
