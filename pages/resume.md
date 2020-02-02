@@ -1,6 +1,16 @@
 ---
-
+layout: single
+title: About Me
+excerpt: ""
+header:
+  overlay_image: /assets/images/night-chicago.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "[Learn more: Night Chicago](../photo_work/index.html)"
+  actions:
+    - label: "View Resume in PDF Version"
+      url: "../assets/images/resume.pdf"
 ---
+
 <head>
     <meta charset="utf-8">
     <style>
@@ -21,20 +31,38 @@
     </style>
 </head>
 
-<button class="button1"> <a  href="#top_of_resume"> Resume </a> </button>
+<!-- <button class="button1"> <a  href="#top_of_resume"> Resume </a> </button>
 <button class="button1"> [PDF Version](../assets/images/resume.pdf) </button>
 
-<div id="top_of_resume"> </div>
----
-#### Objective
+<div id="top_of_resume"> </div> -->
 
----
+## Objective
 
 
 
-> I am a Junior standing student at University of Illinois at Urbana-Champaign major in Computer Engineering. I am expected to graduate in Spring 2021, currently looking for a Software Engineering and ECE/CS related internship for summer 2020. Have passion for learning and eager to apply what I've learned to future jobs.
+> Junior @ **University of Illinois at Urbana-Champaign** majoring in **Computer Engineering**. Expected to graduate in Spring 2021, currently looking for a :
+* Summer **Internship** for software engineering and other ECE/CS related.
+* Summer **Research Lab** in ECE related area.
+
+## Relevant Courseworks
+
+| Course  | Content |
+| ------------- | ------------- |
+| ECE110/120 | Intro to [Electronics](https://ece.illinois.edu/academics/courses/profile/ECE110)/[Computing](https://ece.illinois.edu/academics/courses/profile/ECE120)  |
+| ECE210/310 | [Analog](https://ece.illinois.edu/academics/courses/profile/ECE210)/[Digital](https://ece.illinois.edu/academics/courses/profile/ECE310) Signal Processing |
+| ECE313 | [Probability with Engineering Applications](https://ece.illinois.edu/academics/courses/profile/ECE313) |
+| CS173 | [Discrete Structure](https://cs.illinois.edu/courses/profile/CS173) |
+| CS225 | [Data Structure](https://cs.illinois.edu/courses/profile/CS225) |
+| ECE385 | [Digital System Lab](https://ece.illinois.edu/academics/courses/profile/ECE385) |
+| ECE391 | [Operating System](https://ece.illinois.edu/academics/courses/profile/ECE391) |
+| ECE448 | [Artificial Intelligence](https://ece.illinois.edu/academics/courses/profile/ECE448) |
+| ECE498 | [Principle for Safe Autonomy](https://publish.illinois.edu/safe-autonomy/) |
 
 
+
+
+
+<!--
 ---
 #### Education
 
@@ -42,7 +70,7 @@
 
 **University of Illinois at Urbana-Champaign** - *Aug 2017 - May 2021*
 <br>*- Champaign, IL*
-<br>Bachelor of Science in *Computer Engineering*	- GPA: 3.72 / 4.00
+<br>Bachelor of Science in *Computer Engineering*	- GPA: 3.76 / 4.00
 
 
 * Relevant Courseworks: Data Structure, Digital System Lab, Computer System & Programming, Probability with Engineering Application, Analog/Digital Signal Processing...
@@ -108,4 +136,4 @@
 
 ---
 
-* C++, C, SystemVerilog, LC-3, MATLAB, Ubuntu, jekyll, Markdown, Arduino, Adobe Lightroom, Final Cut Pro, <button class="button1">[Photography](photo_work.html)</button>
+* C++, C, SystemVerilog, LC-3, MATLAB, Ubuntu, jekyll, Markdown, Arduino, Adobe Lightroom, Final Cut Pro, <button class="button1">[Photography](photo_work.html)</button> -->
