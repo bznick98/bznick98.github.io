@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hello!"
+title                    : "Zongnan Bao(鲍宗南)"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Zongnan Bao"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : bznick98/bznick98.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : assets/images/profile.jpg
-masthead_title           : "Hello! 你好！"
+masthead_title           : "Hello!你好!"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -292,7 +292,7 @@ defaults:
       author:
         name: "Zongnan Bao"
         avatar: "/assets/images/profile.jpg"
-        bio: "From Hangzhou, China. Studying at UIUC." # Note: Markdown is allowed
+        bio: "From Hangzhou, China. Studying at Champaign-Urbana. 3rd year at UIUC@ECE and planning for graduate school under Robotics and Computer Vision area." # Note: Markdown is allowed
         links:
           - label: "Github"
             icon: "fab fa-github"
