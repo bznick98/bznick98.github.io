@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Personal Website and Gallery
+title: 
 header:
   image: /assets/images/FoggyBromo.jpg
   image_description: "Foggy Bromo"
@@ -9,8 +9,7 @@ header:
 
 ---
 
----
-# Welcome,
+<h1>
+<p align="center"> :) </p>
+</h1>
 
-
-#### (and please use top of the page to navigate yourself.)

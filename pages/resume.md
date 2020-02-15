@@ -36,7 +36,7 @@ header:
 
 <div id="top_of_resume"> </div> -->
 
-## Objective
+## Objectives
 
 
 
@@ -44,7 +44,7 @@ header:
 * Summer **Internship** for software engineering and other ECE/CS related.
 * Summer **Research Lab** in ECE related area.
 
-## Relevant Courseworks
+## Courseworks
 
 | Course  | Content |
 | ------------- | ------------- |
