@@ -292,7 +292,7 @@ defaults:
       author:
         name: "Zongnan Bao"
         avatar: "/assets/images/profile.jpg"
-        bio: "From Hangzhou, China. Studying at Champaign-Urbana. 3rd year at UIUC@ECE. Love photography and life." # Note: Markdown is allowed
+        bio: "From Hangzhou, China. Studying at Champaign-Urbana. 3rd year at UIUC@ECE." # Note: Markdown is allowed
         links:
           - label: "Github"
             icon: "fab fa-github"
