@@ -8,7 +8,7 @@ header:
   actions:
     - label: "Learn more on my 500px page"
       url: "https://500px.com/zbao98"
-    - label: "and Unplash page"
+    - label: "and Unsplash page"
       url: "https://unsplash.com/@nick19981122"
 
 gallery:
