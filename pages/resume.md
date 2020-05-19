@@ -3,11 +3,11 @@ layout: single
 title: About Me
 excerpt: ""
 header:
-  overlay_image: /assets/images/night-chicago.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  caption: "[Learn more: Night Chicago](../photo_work/index.html)"
+  overlay_image: /assets/images/trump.jpg
+  overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
+  caption: "[Learn more: Downtown Chicago, IL](../photo_work/index.html)"
   actions:
-    - label: "View Resume in PDF Version"
+    - label: "View Resume.pdf"
       url: "../assets/images/resume.pdf"
 ---
 
@@ -37,14 +37,9 @@ header:
 <div id="top_of_resume"> </div> -->
 
 ## Objectives
+> Live the life.
 
-
-
-> Junior @ **University of Illinois at Urbana-Champaign** majoring in **Computer Engineering**. Expected to graduate in Spring 2021, currently looking for a :
-* Summer **Internship** for software engineering and other ECE/CS related.
-* Summer **Research Lab** in ECE related area.
-
-## Courseworks
+## Some Courses Taken
 
 | Course  | Content |
 | ------------- | ------------- |

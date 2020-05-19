@@ -2,9 +2,9 @@
 layout: single
 title: 
 header:
-  image: /assets/images/FoggyBromo.jpg
-  image_description: "Foggy Bromo"
-  caption: "[Mount Bromo in foggy wheather, Java, Indonesia](/pages/photo_work/index.html)"
+  image: /assets/images/menyuan.jpg
+  image_description: "Men Yuan"
+  caption: "[Menyuan, Northwestern China](/pages/photo_work/index.html)"
 
 
 ---

@@ -6,10 +6,10 @@ header:
   overlay_filter: "0.5"
   overlay_image: "../assets/images/star.jpg"
   actions:
-    - label: "Learn more on my 500px page"
-      url: "https://500px.com/zbao98"
-    - label: "and Unsplash page"
+    - label: "Unsplash Page (free download)"
       url: "https://unsplash.com/@nick19981122"
+    - label: "Videography"
+      url: "../pages/videos/index.html"
 
 gallery:
   - url: ../assets/images/BlueFire.jpg
@@ -42,6 +42,12 @@ gallery:
     alt: "Lake Da Qaidam"
     title: "Lake Da Qaidam"
     excerpt: "Took this panorama at 3000m altitude, Da Qaidam, Qinghai Northwestern China."
+
+  - url: ../assets/images/menyuan.jpg
+    image_path: ../assets/images/menyuan.jpg
+    alt: "Menyuan, West China"
+    title: "Menyuan, West China"
+    excerpt: "Maginificent scenery in the West part of China."
 
   - url: ../assets/images/IjenMount.jpg
     image_path: ../assets/images/IjenMount.jpg
