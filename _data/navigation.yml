@@ -5,3 +5,5 @@ main:
     url: pages/resume/index.html
   - title: "Gallery"
     url: pages/photo_work/index.html
+  - title: "Misc."
+    url: pages/misc/index.html
