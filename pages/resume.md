@@ -40,7 +40,7 @@ header:
 
 ###### I like photography and like to expose my works to more and more people. Currently, I've gained 14,000,000+ views on [Unsplash](https://unsplash.com/@nick19981122). My photos are free to download at Unsplash, you can also view some of them under [Gallery](../photo_work/index.html) on this site.
 
-## Relavent Courses
+## Relevant Courses
 
 | Course  | Content |
 | ------------- | ------------- |

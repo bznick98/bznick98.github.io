@@ -4,7 +4,7 @@ title:
 header:
   image: /assets/images/meili.jpg
   image_description: "Meili Snow Mountain"
-  caption: "[Deqin, Yunnan, China](/pages/photo_work/index.html)"
+  caption: "[Learn more: Deqin, Yunnan, China](/pages/photo_work/index.html)"
 
 
 ---
