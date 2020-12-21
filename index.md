@@ -10,7 +10,7 @@ header:
 ---
 
 <h1>
-<p align="center"> Thanks for stopping by! <br /> Please see <a href="pages/resume.md">About</a>
+<p align="center"> Thanks for stopping by! <br /> Please see <a href="pages/resume/index.html">About</a>
  for more information. </p>
 </h1>
 
