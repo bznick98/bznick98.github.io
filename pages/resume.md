@@ -3,9 +3,9 @@ layout: single
 title: About Me
 excerpt: ""
 header:
-  overlay_image: /assets/images/trump.jpg
+  overlay_image: /assets/images/g214.jpg
   overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
-  caption: "[Learn more: Downtown Chicago, IL](../photo_work/index.html)"
+  caption: "[Learn more: Deqin, Yunnan, China](../photo_work/index.html)"
   actions:
     - label: "View Resume.pdf"
       url: "../assets/images/resume.pdf"
@@ -36,22 +36,28 @@ header:
 
 <div id="top_of_resume"> </div> -->
 
-## Objectives
-> Live the life.
+###### I'm currently a senior studying Computer Engineering at [UIUC](https://ece.illinois.edu/), my interests are Autonomous Vehicles, Computer Vision and AI&ML techniques used on Image Processing. I was advised by a really nice Professor [Sayan Mitra](https://mitras.ece.illinois.edu/) and his group during 2020 Summer, researched on reachability analysis of hybrid system, especially on the software tool [C2E2](http://publish.illinois.edu/c2e2-tool/).
 
-## Some Courses Taken
+###### I personally like photography and like to expose my works to more and more people. Currently, I've gained 14,000,000+ views on [Unsplash](https://unsplash.com/@nick19981122).
+
+## Relavent Courses
 
 | Course  | Content |
 | ------------- | ------------- |
 | ECE110/120 | Intro to [Electronics](https://ece.illinois.edu/academics/courses/profile/ECE110)/[Computing](https://ece.illinois.edu/academics/courses/profile/ECE120)  |
 | ECE210/310 | [Analog](https://ece.illinois.edu/academics/courses/profile/ECE210)/[Digital](https://ece.illinois.edu/academics/courses/profile/ECE310) Signal Processing |
 | ECE313 | [Probability with Engineering Applications](https://ece.illinois.edu/academics/courses/profile/ECE313) |
-| CS173 | [Discrete Structure](https://cs.illinois.edu/courses/profile/CS173) |
-| CS225 | [Data Structure](https://cs.illinois.edu/courses/profile/CS225) |
+| CS173  | [Discrete Structure](https://cs.illinois.edu/courses/profile/CS173) |
+| CS225  | [Data Structure](https://cs.illinois.edu/courses/profile/CS225) |
 | ECE385 | [Digital System Lab](https://ece.illinois.edu/academics/courses/profile/ECE385) |
 | ECE391 | [Operating System](https://ece.illinois.edu/academics/courses/profile/ECE391) |
 | ECE448 | [Artificial Intelligence](https://ece.illinois.edu/academics/courses/profile/ECE448) |
 | ECE498 | [Principle for Safe Autonomy](https://publish.illinois.edu/safe-autonomy/) |
+| ECE470 | [Intro to Robotics](https://publish.illinois.edu/ece470-intro-robotics/syllabus/)
+| ECE417 | [Multimedia Signal Processing](https://courses.engr.illinois.edu/ece417/fa2020/)
+| CS374  | [Algorithms & Models of Computation](https://courses.engr.illinois.edu/cs374/fa2020/)
+| CS445  | [Computational Photography](https://courses.engr.illinois.edu/cs445/fa2020/)
+| CS446  | [Machine Learning](https://relate.cs.illinois.edu/course/CS446-fa20/)
 
 
 
