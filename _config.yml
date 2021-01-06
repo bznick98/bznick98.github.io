@@ -291,7 +291,7 @@ defaults:
       read_time: false
       author:
         name: "Zongnan Bao"
-        avatar: "/assets/images/profile.jpg"
+        avatar: "/assets/images/profile2.jpg"
         bio: "From Hangzhou, China. I'm currently a senior studying Computer Engineering at UIUC." # Note: Markdown is allowed
         links:
           - label: "Github"
