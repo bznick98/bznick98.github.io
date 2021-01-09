@@ -11,4 +11,6 @@ header:
 #       url: "../assets/images/resume.pdf"
 ---
 
-# Yet to come!
+# Yet to come...
+
+## 2021-01-09 Photography Path Summary
