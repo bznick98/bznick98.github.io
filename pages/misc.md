@@ -12,5 +12,3 @@ header:
 ---
 
 # Yet to come...
-
-## 2021-01-09 Photography Path Summary
