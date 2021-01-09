@@ -306,3 +306,7 @@ defaults:
           - label: "Unsplash"
             icon: "fas fa-camera"
             url: "https://unsplash.com/@nick19981122"
+          - label: "Contact"
+            icon: "fas fa-id-badge"
+            url: "/pages/resume/index.html#contact"
+

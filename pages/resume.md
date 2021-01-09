@@ -60,6 +60,13 @@ header:
 | CS446  | [Machine Learning](https://relate.cs.illinois.edu/course/CS446-fa20/)
 
 
+## Contact
+
+| :mailbox: Email:  | zb3@illinois.edu  |
+|  | nick19981122@163.com  |
+| :pager: WeChat: | zbao_98  |
+
+
 
 
 
