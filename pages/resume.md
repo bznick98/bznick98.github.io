@@ -62,11 +62,9 @@ header:
 
 ## Contact
 
-| :mailbox: Email:  | zb3@illinois.edu  |
+| Email:  | zb3@illinois.edu  |
 |  | nick19981122@163.com  |
-| :pager: WeChat: | zbao_98  |
-
-:mailbox:
+| WeChat: | zbao_98  |
 
 
 
