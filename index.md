@@ -2,8 +2,8 @@
 layout: single
 title: 
 header:
-  image: /assets/images/meili.jpg
-  image_description: "Meili Snow Mountain"
+  image: /assets/images/slowmo.gif
+  image_description: "Baima Snow Mountain"
   caption: "[Learn more: Deqin, Yunnan, China](/pages/photo_work/index.html)"
 
 
