@@ -2,7 +2,7 @@
 layout: single
 title: 
 header:
-  image: /assets/images/slowmo_opt.gif
+  image: /assets/images/slowmo_opt2.gif
   image_description: "Baima Snow Mountain"
   caption: "[Learn more: Deqin, Yunnan, China](/pages/photo_work/index.html)"
 
