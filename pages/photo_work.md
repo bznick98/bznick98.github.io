@@ -12,6 +12,11 @@ header:
       url: "../pages/videos/index.html"
 
 gallery:
+  - url: ../assets/images/xiapu.jpg
+    image_path: ../assets/images/xiapu.jpg
+    alt: "Tantu, Xiapu"
+    title: "滩涂, 霞浦福建 Xiapu, Fujian."
+
   - url: ../assets/images/BlueFire.jpg
     image_path: ../assets/images/BlueFire.jpg
     alt: "BlueFire"
