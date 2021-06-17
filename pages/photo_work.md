@@ -6,7 +6,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: "../assets/images/star.jpg"
   actions:
-    - label: "Unsplash Page"
+    - label: "Unsplash (Free & Downloadable)"
       url: "https://unsplash.com/@nick19981122"
     - label: "Videography"
       url: "../pages/videos/index.html"
