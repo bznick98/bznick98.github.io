@@ -7,6 +7,9 @@ header:
   overlay_image: "../assets/images/night-chicago.jpg"
 ---
 
+## Yunnan, China Vlog - 2020 Thanksgiving break
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XHw4ikktK5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## New York Vlog - 2019 Thanksgiving break
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MOHzzBuTXVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

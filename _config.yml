@@ -292,7 +292,7 @@ defaults:
       author:
         name: "Zongnan Bao"
         avatar: "/assets/images/profile2.jpg"
-        bio: "From Hangzhou, China. I'm currently a senior studying Computer Engineering at UIUC." # Note: Markdown is allowed
+        bio: "From Hangzhou, China. I'm currently a MS student studying CS at UCLA, previous graduated from UIUC." # Note: Markdown is allowed
         links:
           - label: "Github"
             icon: "fab fa-github"
