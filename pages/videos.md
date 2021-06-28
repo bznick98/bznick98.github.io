@@ -7,6 +7,12 @@ header:
   overlay_image: "../assets/images/night-chicago.jpg"
 ---
 
+## 新疆 | Xinjiang: 4K Droneshot of beautiful natural scene in Xinjiang, China
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Po7AZVBZKOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Chengdu/Chongqing Vlog - 2021-5
+<iframe width="560" height="315" src="https://www.youtube.com/embed/odpMMPHZijE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Yunnan, China Vlog - 2020 Thanksgiving break
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XHw4ikktK5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
