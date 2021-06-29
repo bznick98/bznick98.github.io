@@ -36,9 +36,16 @@ header:
 
 <div id="top_of_resume"> </div> -->
 
-###### I'm currently a senior studying Computer Engineering at [UIUC](https://ece.illinois.edu/), my interests are Autonomous Vehicles, Computer Vision and AI&ML techniques used on Image Processing. I was advised by a really nice Professor [Sayan Mitra](https://mitras.ece.illinois.edu/) and his group during 2020 Summer, researched on reachability analysis of hybrid system, especially on the software tool [C2E2](http://publish.illinois.edu/c2e2-tool/).
+<!-- ###### I'm currently a senior studying Computer Engineering at [UIUC](https://ece.illinois.edu/), my interests are Autonomous Vehicles, Computer Vision and AI&ML techniques used on Image Processing. I was advised by a really nice Professor [Sayan Mitra](https://mitras.ece.illinois.edu/) and his group during 2020 Summer, researched on reachability analysis of hybrid system, especially on the software tool [C2E2](http://publish.illinois.edu/c2e2-tool/).
 
-###### I like photography and like to expose my works to more and more people. Currently, I've gained 25,000,000+ views on [Unsplash](https://unsplash.com/@nick19981122). My photos are free to download at Unsplash, you can also view some of them under [Gallery](../photo_work/index.html) on this site.
+###### I like photography and like to expose my works to more and more people. Currently, I've gained 25,000,000+ views on [Unsplash](https://unsplash.com/@nick19981122). My photos are free to download at Unsplash, you can also view some of them under [Gallery](../photo_work/index.html) on this site. -->
+
+###### I'm currently a MS student in UCLA studying Computer Science, focused on AI and Computer Vision. Before that, I graduated from University of Illinois at Urbana Champaign at 2021 as a Computer Engineering student. 
+<!-- ###### I'm currently a senior studying Computer Engineering at [UIUC](https://ece.illinois.edu/), my interests are Autonomous Vehicles, Computer Vision and AI&ML techniques used on Image Processing. I was advised by a really nice Professor [Sayan Mitra](https://mitras.ece.illinois.edu/) and his group during 2020 Summer, researched on reachability analysis of hybrid system, especially on the software tool [C2E2](http://publish.illinois.edu/c2e2-tool/). -->
+
+###### In my spare time, I like photography and like to share my works. Currently, I've gained 70,000,000+ views on my [Unsplash](https://unsplash.com/@nick19981122). All of my newest works will be uploaded to Unsplash and are free to download, you can also view some of them under [Gallery](../photo_work/index.html) on this site, though the site may not get updated as often as on Unsplash.
+
+###### P.S. I'm open to internships and research lab oppportunities, feel free to reach me plz!
 
 ## Relevant Courses
 
