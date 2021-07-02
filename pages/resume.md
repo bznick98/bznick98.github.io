@@ -60,6 +60,7 @@ header:
 | ECE391 | [Operating System](https://ece.illinois.edu/academics/courses/profile/ECE391) |
 | ECE448 | [Artificial Intelligence](https://ece.illinois.edu/academics/courses/profile/ECE448) |
 | ECE498 | [Principle for Safe Autonomy](https://publish.illinois.edu/safe-autonomy/) |
+| CS411  | [Database Systems](https://cs.illinois.edu/academics/courses/CS411)
 | ECE470 | [Intro to Robotics](https://publish.illinois.edu/ece470-intro-robotics/syllabus/)
 | ECE417 | [Multimedia Signal Processing](https://courses.engr.illinois.edu/ece417/fa2020/)
 | CS374  | [Algorithms & Models of Computation](https://courses.engr.illinois.edu/cs374/fa2020/)

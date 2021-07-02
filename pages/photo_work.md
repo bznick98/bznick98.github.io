@@ -12,6 +12,16 @@ header:
       url: "../pages/videos/index.html"
 
 gallery:
+  - url: ../assets/images/duku.jpg
+    image_path: ../assets/images/duku.jpg
+    alt: "Duku - G217, Xinjiang"
+    title: "G217 - 独库公路南段, 新疆."
+
+  - url: ../assets/images/xiata.jpg
+    image_path: ../assets/images/xiata.jpg
+    alt: "Xiata, Xinjiang"
+    title: "夏塔古道, 昭苏, 新疆."
+
   - url: ../assets/images/xiapu.jpg
     image_path: ../assets/images/xiapu.jpg
     alt: "Tantu, Xiapu"

@@ -16,9 +16,7 @@ header:
 
 ###### In my spare time, I like photography and like to share my works. Currently, I've gained 70,000,000+ views on my [Unsplash](https://unsplash.com/@nick19981122). All of my newest works will be uploaded to Unsplash and are free to download, you can also view some of them under [Gallery](../photo_work/index.html) on this site, though the site may not get updated as often as on Unsplash.
 
-###### P.S. I'm open to internships and research lab oppportunities, feel free to reach me plz!
-
-
+###### P.S. I'm open to internships and research lab oppportunities, feel free to reach me plz!           
 
 <!-- <h1>
 <p align="center"> Thanks for stopping by! <br /> Check out <a href="pages/resume/index.html">About</a>
