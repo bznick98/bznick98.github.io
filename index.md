@@ -23,5 +23,7 @@ header:
  for more information. </p>
 </h1> -->
 
+<link rel="shortcut icon" type="image/png" href="favicon.png"> 
+
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5vjix09k2my&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=lucida_sans_unicode&amp;l=49&amp;hi=50" async="async"></script>
 

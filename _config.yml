@@ -233,6 +233,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag # for favicon
 
 # mimic GitHub Pages with --safe
 whitelist:
