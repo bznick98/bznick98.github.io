@@ -296,7 +296,7 @@ defaults:
         links:
           - label: "Linkedin"
             icon: "fab fa-linkedin-in"
-            url: "www.linkedin.com/in/zongnanbao"
+            url: "https://linkedin.com/in/zongnanbao"
           - label: "Github"
             icon: "fab fa-github"
             url: "https://github.com/bznick98"
