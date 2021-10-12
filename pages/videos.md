@@ -7,6 +7,9 @@ header:
   overlay_image: "../assets/images/night-chicago.jpg"
 ---
 
+## 西北 | XIBEI, 4K Drone Shot of Beautiful North Western China
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2ehR2egCdks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 新疆 | Xinjiang: 4K Droneshot of beautiful natural scene in Xinjiang, China
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Po7AZVBZKOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
