@@ -43,13 +43,19 @@ header:
 I'm currently a MS student in UCLA studying Computer Science, focused on AI and Computer Vision. I received my bachelor's degree from University of Illinois at Urbana Champaign in 2021 as a Computer Engineering student. 
 <!-- ###### I'm currently a senior studying Computer Engineering at [UIUC](https://ece.illinois.edu/), my interests are Autonomous Vehicles, Computer Vision and AI&ML techniques used on Image Processing. I was advised by a really nice Professor [Sayan Mitra](https://mitras.ece.illinois.edu/) and his group during 2020 Summer, researched on reachability analysis of hybrid system, especially on the software tool [C2E2](http://publish.illinois.edu/c2e2-tool/). -->
 
-In my spare time, I like photography and like to share my works. Currently, I've got 90,000,000+ views on [Unsplash](https://unsplash.com/@nick19981122), and became top-1000 contributer on the platform. All of my newest works will be uploaded to Unsplash and are free to download, you can also view some of them under [Gallery](../photo_work/index.html) on this site, though the site may not get updated as often as on Unsplash.
+In my spare time, I like photography and like to share my works. Currently, I've got 120,000,000+ views on [Unsplash](https://unsplash.com/@nick19981122), and became top-1000 contributer on the platform. All of my newest works will be uploaded to Unsplash and are free to download, you can also view some of them under [Gallery](../photo_work/index.html) on this site, though this site may not get updated as often as on Unsplash.
 
 ###### P.S. I'm open to internships and research lab opportunities, feel free to reach me plz!
 
 ## Relevant Courses
 
-| Course  | Content |
+| Course (UCLA)  | Content |
+| ------------- | ------------- |
+| CS 269-3  | [Seminar in Computer Vision: Deformable Contour Models](https://ccle.ucla.edu/course/view/21F-COMSCI269-3) |
+| CS M226  | [Machine Learning in Bioinformatics](https://ccle.ucla.edu/course/view/21F-COMSCIM226-1) |
+| MATH 273A  | [Optimization and Calculus of Variations: Basic Optimization Theory](https://ccle.ucla.edu/course/view/21F-MATH273A-1) |
+
+| Course (UIUC)  | Content |
 | ------------- | ------------- |
 | ECE110/120 | Intro to [Electronics](https://ece.illinois.edu/academics/courses/profile/ECE110)/[Computing](https://ece.illinois.edu/academics/courses/profile/ECE120)  |
 | ECE210/310 | [Analog](https://ece.illinois.edu/academics/courses/profile/ECE210)/[Digital](https://ece.illinois.edu/academics/courses/profile/ECE310) Signal Processing |
@@ -60,12 +66,13 @@ In my spare time, I like photography and like to share my works. Currently, I've
 | ECE391 | [Operating System](https://ece.illinois.edu/academics/courses/profile/ECE391) |
 | ECE448 | [Artificial Intelligence](https://ece.illinois.edu/academics/courses/profile/ECE448) |
 | ECE498 | [Principle for Safe Autonomy](https://publish.illinois.edu/safe-autonomy/) |
-| CS411  | [Database Systems](https://cs.illinois.edu/academics/courses/CS411)
-| ECE470 | [Intro to Robotics](https://publish.illinois.edu/ece470-intro-robotics/syllabus/)
-| ECE417 | [Multimedia Signal Processing](https://courses.engr.illinois.edu/ece417/fa2020/)
-| CS374  | [Algorithms & Models of Computation](https://courses.engr.illinois.edu/cs374/fa2020/)
-| CS445  | [Computational Photography](https://courses.engr.illinois.edu/cs445/fa2020/)
-| CS446  | [Machine Learning](https://relate.cs.illinois.edu/course/CS446-fa20/)
+| CS411  | [Database Systems](https://cs.illinois.edu/academics/courses/CS411) |
+| ECE470 | [Intro to Robotics](https://publish.illinois.edu/ece470-intro-robotics/syllabus/) |
+| ECE417 | [Multimedia Signal Processing](https://courses.engr.illinois.edu/ece417/fa2020/) |
+| CS374  | [Algorithms & Models of Computation](https://courses.engr.illinois.edu/cs374/fa2020/) |
+| CS445  | [Computational Photography](https://courses.engr.illinois.edu/cs445/fa2020/) |
+| CS446  | [Machine Learning](https://relate.cs.illinois.edu/course/CS446-fa20/) |
+| ECE411  | [Computer Organization and Design](https://courses.grainger.illinois.edu/ece411/fa2021/course.html) |
 
 
 ## Contact
