@@ -5,5 +5,7 @@
 * State my objectives
 * Exhibit artworks(Photography/Videography gallery)
 
+## Serving locally using
+`bundle exec jekyll serve`
 
 ![](https://visitor-badge.glitch.me/badge?page_id=bznick98.bznick98.github.io)

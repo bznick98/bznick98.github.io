@@ -11,6 +11,10 @@ header:
     - label: "Videography"
       url: "../pages/videos/index.html"
 
+intro:
+  - excerpt: "Top-1000 **Unsplash** Contributor"
+  - excerpt: "**Getty Images** Contributor"
+
 gallery:
   - url: ../assets/images/duku.jpg
     image_path: ../assets/images/duku.jpg
@@ -130,6 +134,47 @@ gallery:
     excerpt: "A night view at 360 Chicago in downtown Chicago, Illinois."
  
 ---
+{% include feature_row id="intro" type="center" %}
+<style>
+    #stat{
+        font-family:    'Trebuchet MS', sans-serif;
+        font-size:      20px;
+        font-weight:    bold;
+    }
+    #views, #downloads{
+        color: gold;
+        font-family:    'Courier New', monospace;
+        font-size:      15px;
+        font-weight:    bold;
+    }
+    #vtxt, #dtxt{
+        font-family:    'Courier New', monospace;
+        font-size:      15px;
+        font-weight:    bold;
+    }
+</style>
+<center>
+<div id="stat"> Unsplash Stats </div>
+<span id="views"></span> <span id="vtxt"> views</span> <br>
+<span id="downloads"></span> <span id="dtxt"> downloads</span>
+</center>
+
+<script>
+async function loadStats() {
+  const url = "https://api.unsplash.com/users/nick19981122/statistics/?client_id=6t0qRfV_gaM3em6bzhVAZAg1PNl1vxOCTaqGWorNU5A"
+  const response = await fetch(url);
+  const stats = await response.json();
+  // let my_stats = JSON.parse(stats);
+  console.log(stats); 
+  console.log("Displaying Views and Downloads");
+  console.log(stats.views.total);
+  console.log(stats.downloads.total);
+  // write to html
+  document.getElementById('views').innerHTML = stats.views.total;
+  document.getElementById('downloads').innerHTML = stats.downloads.total;
+};
+loadStats();
+</script>
 
 {% include gallery layout = 'third' %}
 
@@ -140,5 +185,6 @@ gallery:
 
 {% include feature_row id="feature_row4" type="center" %} -->
 
+<link rel="shortcut icon" type="image/png" href="favicon.png"> 
 
 ![Champaign Photography](../assets/images/XBYL.png)

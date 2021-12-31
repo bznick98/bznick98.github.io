@@ -6,6 +6,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: "../assets/images/night-chicago.jpg"
 ---
+## 夏威夷 | Hawaii Vlog | Kona, Hilo, O'ahu
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PN_MliBgq9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 西北 | XIBEI, 4K Drone Shot of Beautiful North Western China
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2ehR2egCdks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

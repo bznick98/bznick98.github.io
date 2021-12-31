@@ -31,6 +31,61 @@ header:
     </style>
 </head>
 
+I'm currently a graduate student in UCLA studying Computer Science, focused on AI and Computer Vision. Before that, I received my bachelor's degree from University of Illinois at Urbana Champaign in 2021 as a Computer Engineering student.
+<!-- ###### I'm currently a senior studying Computer Engineering at [UIUC](https://ece.illinois.edu/), my interests are Autonomous Vehicles, Computer Vision and AI&ML techniques used on Image Processing. I was advised by a really nice Professor [Sayan Mitra](https://mitras.ece.illinois.edu/) and his group during 2020 Summer, researched on reachability analysis of hybrid system, especially on the software tool [C2E2](http://publish.illinois.edu/c2e2-tool/). -->
+
+
+In my spare time, I love photography and like to share my works. Currently, I am a top-1000 contributer on the platform named [Unsplash](https://unsplash.com/@nick19981122), also a Getty Images Contributor. All of my recent photos will be uploaded to Unsplash and are free to download.
+
+<style>
+    #stat{
+        font-family:    'Trebuchet MS', sans-serif;
+        font-size:      20px;
+        font-weight:    bold;
+    }
+    #views, #downloads{
+        color: gold;
+        font-family:    'Courier New', monospace;
+        font-size:      15px;
+        font-weight:    bold;
+    }
+    #vtxt, #dtxt{
+        font-family:    'Courier New', monospace;
+        font-size:      15px;
+        font-weight:    bold;
+    }
+</style>
+<center>
+<div id="stat"> Unsplash Stats </div>
+<span id="views"></span> <span id="vtxt"> views</span> <br>
+<span id="downloads"></span> <span id="dtxt"> downloads</span>
+</center>
+
+<script>
+async function loadStats() {
+  const url = "https://api.unsplash.com/users/nick19981122/statistics/?client_id=6t0qRfV_gaM3em6bzhVAZAg1PNl1vxOCTaqGWorNU5A"
+  const response = await fetch(url);
+  const stats = await response.json();
+  // let my_stats = JSON.parse(stats);
+  console.log(stats); 
+  console.log("Displaying Views and Downloads");
+  console.log(stats.views.total);
+  console.log(stats.downloads.total);
+  // write to html
+  document.getElementById('views').innerHTML = stats.views.total;
+  document.getElementById('downloads').innerHTML = stats.downloads.total;
+};
+loadStats();
+</script>
+
+
+<!-- <h1>
+<p align="center"> Thanks for stopping by! <br /> Check out <a href="pages/resume/index.html">About</a>
+ for more information. </p>
+</h1> -->
+
+<link rel="shortcut icon" type="image/png" href="favicon.png"> 
+
 <!-- <button class="button1"> <a  href="#top_of_resume"> Resume </a> </button>
 <button class="button1"> [PDF Version](../assets/images/resume.pdf) </button>
 
@@ -40,12 +95,10 @@ header:
 
 ###### I like photography and like to expose my works to more and more people. Currently, I've gained 25,000,000+ views on [Unsplash](https://unsplash.com/@nick19981122). My photos are free to download at Unsplash, you can also view some of them under [Gallery](../photo_work/index.html) on this site. -->
 
-I'm currently a graduate student in UCLA studying Computer Science, focused on AI and Computer Vision. I received my bachelor's degree from University of Illinois at Urbana Champaign in 2021 as a Computer Engineering student. 
+<!-- I'm currently a graduate student in UCLA studying Computer Science, focused on AI and Computer Vision. I received my bachelor's degree from University of Illinois at Urbana Champaign in 2021 as a Computer Engineering student.  -->
 <!-- ###### I'm currently a senior studying Computer Engineering at [UIUC](https://ece.illinois.edu/), my interests are Autonomous Vehicles, Computer Vision and AI&ML techniques used on Image Processing. I was advised by a really nice Professor [Sayan Mitra](https://mitras.ece.illinois.edu/) and his group during 2020 Summer, researched on reachability analysis of hybrid system, especially on the software tool [C2E2](http://publish.illinois.edu/c2e2-tool/). -->
 
-In my spare time, I love photography and like to share my works. Currently, I've got 130,000,000+ views on [Unsplash](https://unsplash.com/@nick19981122), and became top-1000 contributer on the platform. All of my newest works will be uploaded to Unsplash and are free to download, you can also view some of them under [Gallery](../photo_work/index.html) on this site, though this site may not get updated as often as on Unsplash.
-
-###### P.S. I'm open to internships and research lab opportunities, feel free to reach me plz!
+<!-- In my spare time, I love photography and like to share my works. Currently, I've got 130,000,000+ views on [Unsplash](https://unsplash.com/@nick19981122), and became top-1000 contributer on the platform. All of my newest works will be uploaded to Unsplash and are free to download, you can also view some of them under [Gallery](../photo_work/index.html) on this site, though this site may not get updated as often as on Unsplash. -->
 
 ## Relevant Courses
 
@@ -77,9 +130,11 @@ In my spare time, I love photography and like to share my works. Currently, I've
 
 ## Contact
 
-| Email:  | zb3@illinois.edu  |
-|  | nick19981122@163.com  |
+| Email:  | zb3@g.ucla.edu  |
 | WeChat: | zbao_98  |
+
+<sub>P.S. I'm open to any opportunities, please feel free to reach out to me!</sub>  
+
 
 
 

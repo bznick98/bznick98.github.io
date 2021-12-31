@@ -293,7 +293,7 @@ defaults:
       author:
         name: "Zongnan Bao"
         avatar: "/assets/images/profile2.jpg"
-        bio: "From Hangzhou, China. I'm currently a graduate student studying Computer Science at UCLA, previously graduated from UIUC." # Note: Markdown is allowed
+        bio: "From Hangzhou, China. MSCS @ UCLA. CompE Alum @ UIUC"
         links:
           - label: "Linkedin"
             icon: "fab fa-linkedin-in"
