@@ -104,8 +104,10 @@ loadStats();
 
 | Course (UCLA)  | Content |
 | ------------- | ------------- |
+| CS 260C  | [Deep Learning](https://bruinlearn.ucla.edu/courses/108940) |
+| CS 130  | [Software Engineering](https://bruinlearn.ucla.edu/courses/109762) |
+| CS 118  | [Computer Network Fundamentals](https://bruinlearn.ucla.edu/courses/109760) |
 | CS 269-3  | [Seminar in Computer Vision: Deformable Contour Models](https://ccle.ucla.edu/course/view/21F-COMSCI269-3) |
-| CS M226  | [Machine Learning in Bioinformatics](https://ccle.ucla.edu/course/view/21F-COMSCIM226-1) |
 | MATH 273A  | [Optimization and Calculus of Variations: Basic Optimization Theory](https://ccle.ucla.edu/course/view/21F-MATH273A-1) |
 
 | Course (UIUC)  | Content |
