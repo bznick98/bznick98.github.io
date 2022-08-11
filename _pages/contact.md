@@ -1,6 +1,6 @@
 ---
 title: Contact
-subtitle: Index comes with a built-in contact form, that's free and easy to set up.
+subtitle: You can shoot me an email using form below, or dm me on any social platform.
 description: Index is a minimal, fixed sidebar grid portfolio Jekyll theme.
 featured_image: /images/demo/demo-landscape.jpg
 ---
