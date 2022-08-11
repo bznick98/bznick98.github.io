@@ -20,3 +20,37 @@ In my spare time, I love photography and like to share my works. Currently, I am
 <center>
     <a href="/resume" class="button button--large">View Resume</a>
 </center>
+
+
+<br>
+
+## Relevant Courses
+
+| Course (UCLA)  | Content |
+| ------------- | ------------- |
+| CS 133  | [Parallel and Distributed Computing](https://www.bruinwalk.com/classes/com-sci-133/) |
+| CS 275  | [Artificial Life for Computer Graphics and Vision](https://www.coursicle.com/ucla/courses/COMSCI/275/) |
+| CS 260C  | [Deep Learning](https://bruinlearn.ucla.edu/courses/108940) |
+| CS 130  | [Software Engineering](https://bruinlearn.ucla.edu/courses/109762) |
+| CS 118  | [Computer Network Fundamentals](https://bruinlearn.ucla.edu/courses/109760) |
+| CS 269-3  | [Seminar in Computer Vision: Deformable Contour Models](https://ccle.ucla.edu/course/view/21F-COMSCI269-3) |
+| MATH 273A  | [Optimization and Calculus of Variations: Basic Optimization Theory](https://ccle.ucla.edu/course/view/21F-MATH273A-1) |
+
+| Course (UIUC)  | Content |
+| ------------- | ------------- |
+| ECE411  | [Computer Organization and Design](https://courses.grainger.illinois.edu/ece411/fa2021/course.html) |
+| CS446  | [Machine Learning](https://relate.cs.illinois.edu/course/CS446-fa20/) |
+| CS445  | [Computational Photography](https://courses.engr.illinois.edu/cs445/fa2020/) |
+| CS374  | [Algorithms & Models of Computation](https://courses.engr.illinois.edu/cs374/fa2020/) |
+| ECE417 | [Multimedia Signal Processing](https://courses.engr.illinois.edu/ece417/fa2020/) |
+| ECE470 | [Intro to Robotics](https://publish.illinois.edu/ece470-intro-robotics/syllabus/) |
+| CS411  | [Database Systems](https://cs.illinois.edu/academics/courses/CS411) |
+| ECE498 | [Principle for Safe Autonomy](https://publish.illinois.edu/safe-autonomy/) |
+| ECE448 | [Artificial Intelligence](https://ece.illinois.edu/academics/courses/profile/ECE448) |
+| ECE391 | [Operating System](https://ece.illinois.edu/academics/courses/profile/ECE391) |
+| ECE385 | [Digital System Lab](https://ece.illinois.edu/academics/courses/profile/ECE385) |
+| CS225  | [Data Structure](https://cs.illinois.edu/courses/profile/CS225) |
+| CS173  | [Discrete Structure](https://cs.illinois.edu/courses/profile/CS173) |
+| ECE313 | [Probability with Engineering Applications](https://ece.illinois.edu/academics/courses/profile/ECE313) |
+| ECE210/310 | [Analog](https://ece.illinois.edu/academics/courses/profile/ECE210)/[Digital](https://ece.illinois.edu/academics/courses/profile/ECE310) Signal Processing |
+| ECE110/120 | Intro to [Electronics](https://ece.illinois.edu/academics/courses/profile/ECE110)/[Computing](https://ece.illinois.edu/academics/courses/profile/ECE120)  |
