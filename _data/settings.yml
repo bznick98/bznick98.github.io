@@ -71,9 +71,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">'
-  title_font: '"Montserrat", sans-serif'
-  body_font: '"Montserrat", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;500&display=swap" rel="stylesheet">'
+  title_font: '"Prompt", sans-serif'
+  body_font: '"Prompt", sans-serif'
   regular_weight: 300
   bold_weight: 500
   site_title:
