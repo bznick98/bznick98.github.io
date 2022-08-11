@@ -30,8 +30,8 @@ featured_image: /images/demo/demo-square.jpg
     <img src="/images/gallery/xiapu.jpg">
     <img src="/images/gallery/FoggyBromoHorse.jpg">
     <img src="/images/gallery/trump.jpg">
-    <img src="/images/gallery/smoke-bw.jpg">
-    <img src="/images/gallery/ijenLake.jpg">
+    <!-- <img src="/images/gallery/smoke-bw.jpg"> -->
+    <!-- <img src="/images/gallery/IjenLake.jpg"> -->
 </div>
 
 <!-- <img src="/images/gallery/.jpg"> -->
