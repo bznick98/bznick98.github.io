@@ -32,7 +32,7 @@ I'm currently working at Dolby as an Image Engineering Intern. I'm working on pr
 
 <img src="/images/misc/yitu.png" alt="yitu-logo" width="200" align="right"/>
 
-#### [YITU Technology](https://www.yitutech.com/en) - Computer Vision Research Intern
+##### [YITU Technology](https://www.yitutech.com/en) - Computer Vision Research Intern
 I was working as a Computer Vision Research Intern at YITU Technology. Our group focuses on computer vision applications for making city more "intelligent". I mostly focused on object detection algorithms like Single-shot Multibox Detector (SSD).
 
 ## Relevant Courses
