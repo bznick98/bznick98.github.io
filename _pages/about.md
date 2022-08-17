@@ -24,6 +24,17 @@ In my spare time, I love photography and like to share my works. Currently, I am
 
 <br>
 
+## Experiences
+<img src="/images/misc/dolby.png" alt="dolby-logo" width="200" align="right"/>
+
+##### [Dolby Laboratories](https://www.dolby.com/) - Image Engineering Intern
+I'm currently working at Dolby as an Image Engineering Intern. I'm working on project restoring image metadata from HDR/SDR pairs using Particle Swarms Optimization (PSO). Besides that, I also researched and implemented a deep learning paper related to HDR photo enhancement.
+
+<img src="/images/misc/yitu.jpg" alt="yitu-logo" width="200" align="right"/>
+
+#### [YITU Technology](https://www.yitutech.com/en) - Computer Vision Research Intern
+I was working as a Computer Vision Research Intern at YITU Technology. Our group focuses on computer vision applications for making city more "intelligent". I mostly focused on object detection algorithms like Single-shot Multibox Detector (SSD).
+
 ## Relevant Courses
 
 | Course (UCLA)  | Content |
