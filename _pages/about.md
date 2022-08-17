@@ -11,6 +11,7 @@ My name is **Zongnan Bao**. I'm a master student at **UCLA** studying **Computer
 
 In my spare time, I love photography and like to share my works. Currently, I am a top-1000 contributer on the platform named [Unsplash](https://unsplash.com/@nick19981122), also a Getty Images Contributor. All of my recent photos will be uploaded to Unsplash and are free to download. In addition, I love music and I started out playing classical guitar and now I transitioned to acoustic guitar especially fingerstyles.
 
+`:eyes:` I am actively seeking for new grad **Software Engineer** roles in 2022/2023!
 
 
 
@@ -28,16 +29,23 @@ In my spare time, I love photography and like to share my works. Currently, I am
 <img src="/images/misc/dolby.png" alt="dolby-logo" width="200" align="right"/>
 
 ##### [Dolby Laboratories](https://www.dolby.com/) - Image Engineering Intern
-I'm currently working at Dolby as an Image Engineering Intern. I'm working on project restoring image metadata from HDR/SDR pairs using Particle Swarms Optimization (PSO). Besides that, I also researched and implemented a deep learning paper related to HDR photo enhancement.
+I'm currently working at Dolby as an Image Engineering Intern. I'm working on project restoring image metadata from HDR/SDR pairs using Particle Swarms Optimization (PSO). Besides that, I also researched and implemented deep learning papers related to HDR photo enhancement.
 
 <img src="/images/misc/yitu.png" alt="yitu-logo" width="200" align="right"/>
 
 ##### [YITU Technology](https://www.yitutech.com/en) - Computer Vision Research Intern
-I was working as a Computer Vision Research Intern at YITU Technology. Our group focuses on computer vision applications for making city more "intelligent". I mostly focused on object detection algorithms like Single-shot Multibox Detector (SSD).
+I was working as a Computer Vision Research Intern at YITU Technology. Our group focus on computer vision applications for making city more "intelligent". I mostly worked on training, evaluating and improving object detection algorithms like Single-shot Multibox Detector (SSD).
 
-## Relevant Courses
+## Education
+##### [University of California, Los Angeles](https://www.cs.ucla.edu/) (UCLA)
+Master of Science in Computer Science graduate in June 2023 (Expected)
 
-| Course (UCLA)  | Content |
+##### [University of Illinois at Urbana-Champaign](https://ece.illinois.edu/) (UIUC)
+Bachelor of Science in Computer Engineering graduated in May 2021
+
+## Relevant Courseworks
+
+| Course (UCLA)  | Course Name |
 | ------------- | ------------- |
 | CS 133  | [Parallel and Distributed Computing](https://www.bruinwalk.com/classes/com-sci-133/) |
 | CS 275  | [Artificial Life for Computer Graphics and Vision](https://www.coursicle.com/ucla/courses/COMSCI/275/) |
@@ -47,7 +55,7 @@ I was working as a Computer Vision Research Intern at YITU Technology. Our group
 | CS 269-3  | [Seminar in Computer Vision: Deformable Contour Models](https://ccle.ucla.edu/course/view/21F-COMSCI269-3) |
 | MATH 273A  | [Optimization and Calculus of Variations: Basic Optimization Theory](https://ccle.ucla.edu/course/view/21F-MATH273A-1) |
 
-| Course (UIUC)  | Content |
+| Course (UIUC)  | Course Name |
 | ------------- | ------------- |
 | ECE411  | [Computer Organization and Design](https://courses.grainger.illinois.edu/ece411/fa2021/course.html) |
 | CS446  | [Machine Learning](https://relate.cs.illinois.edu/course/CS446-fa20/) |
