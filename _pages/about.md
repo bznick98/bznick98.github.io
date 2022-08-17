@@ -11,7 +11,7 @@ My name is **Zongnan Bao**. I'm a master student at **UCLA** studying **Computer
 
 In my spare time, I love photography and like to share my works. Currently, I am a top-1000 contributer on the platform named [Unsplash](https://unsplash.com/@nick19981122), also a Getty Images Contributor. All of my recent photos will be uploaded to Unsplash and are free to download. In addition, I love music and I started out playing classical guitar and now I transitioned to acoustic guitar especially fingerstyles.
 
-`:eyes:` I am actively seeking for new grad **Software Engineer** roles in 2022/2023!
+👀 I am actively seeking for new grad **Software Engineer** roles in 2022/2023!
 
 
 
