@@ -29,7 +29,7 @@ In my spare time, I love photography and like to share my works. Currently, I am
 <img src="/images/misc/dolby.png" alt="dolby-logo" width="200" align="right"/>
 
 ##### [Dolby Laboratories](https://www.dolby.com/) - Image Engineering Intern
-I'm currently working at Dolby as an Image Engineering Intern. I'm working on project restoring image metadata from HDR/SDR pairs using Particle Swarms Optimization (PSO). Besides that, I also researched and implemented deep learning papers related to HDR photo enhancement.
+I'm currently working at Dolby as an Image Engineering Intern. I'm working on Dolby Vision related project aiming to restore image metadata from HDR/SDR pairs using Particle Swarms Optimization (PSO). Besides that, I also researched and implemented deep learning papers related to HDR photo enhancement.
 
 <img src="/images/misc/yitu.png" alt="yitu-logo" width="200" align="right"/>
 
