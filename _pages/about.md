@@ -9,7 +9,7 @@ featured_image: /images/demo/demo-square.jpg
 
 My name is **Zongnan Bao**. I'm a master student at **UCLA** studying **Computer Science**. Before that, I received my bachelor’s degree from **University of Illinois at Urbana Champaign** in 2021 as a **Computer Engineering** student. 
 
-In my spare time, I love photography and like to share my works. Currently, I am a top-1000 contributer on the platform named [Unsplash](https://unsplash.com/@zbao98), also a Getty Images Contributor. All of my recent photos will be uploaded to Unsplash and are free to download. In addition, I love music and I started out playing classical guitar and now I transitioned to acoustic guitar especially fingerstyles.
+In my spare time, I love photography and like to share my works. Currently, I am a top-1000 contributer on the platform named [Unsplash](https://unsplash.com/@zbao), also a Getty Images Contributor. All of my recent photos will be uploaded to Unsplash and are free to download. In addition, I love music and I started out playing classical guitar and now I transitioned to acoustic guitar especially fingerstyles.
 
 👀 I am actively seeking for new grad **Software Engineer** roles in 2022/2023!
 
