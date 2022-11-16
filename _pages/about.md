@@ -47,6 +47,8 @@ Bachelor of Science in Computer Engineering graduated in May 2021
 
 | Course (UCLA)  | Course Name |
 | ------------- | ------------- |
+| CS 251A  | [Advanced Computer Architecture](https://www.bruinwalk.com/classes/com-sci-251a/) |
+| CS 264A  | [Automated Reasoning](https://www.bruinwalk.com/classes/com-sci-264a/) |
 | CS 133  | [Parallel and Distributed Computing](https://www.bruinwalk.com/classes/com-sci-133/) |
 | CS 275  | [Artificial Life for Computer Graphics and Vision](https://www.coursicle.com/ucla/courses/COMSCI/275/) |
 | CS 260C  | [Deep Learning](https://bruinlearn.ucla.edu/courses/108940) |
