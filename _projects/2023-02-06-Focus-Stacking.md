@@ -15,7 +15,7 @@ Focus stacking is a technique used in photography to increase the depth of field
 ## How to achieve Focus Stacking?
 I researched several methods including findning maximum laplacian of gaussian (LoG) and using laplacian pyramid decomposition. Among of all methods, I find fusing images using laplacian pyramid decomposition generates the best results.
 
-The **Laplacian Pyramid decomposition** is a technique used in image processing to represent an image at multiple levels of resolution or detail. The idea is to decompose an image into a series of increasingly smoothed and down-sampled versions, called a Gaussian Pyramid, and then subtract the corresponding levels of the Gaussian Pyramid from the original image to obtain a set of Laplacian images. Each Laplacian image represents the residual or the high-frequency details of the image that were lost during the smoothing and down-sampling process. 
+The **[Laplacian Pyramid decomposition](http://sepwww.stanford.edu/data/media/public/sep/morgan/texturematch/paper_html/node3.html)** is a technique used in image processing to represent an image at multiple levels of resolution or detail. The idea is to decompose an image into a series of increasingly smoothed and down-sampled versions, called a Gaussian Pyramid, and then subtract the corresponding levels of the Gaussian Pyramid from the original image to obtain a set of Laplacian images. Each Laplacian image represents the residual or the high-frequency details of the image that were lost during the smoothing and down-sampling process. 
 
 ![lpd](/images/focus-stacking/lpd.png)
 
