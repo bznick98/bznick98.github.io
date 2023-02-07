@@ -47,6 +47,8 @@ Bachelor of Science in Computer Engineering graduated in May 2021
 
 | Course (UCLA)  | Course Name |
 | ------------- | ------------- |
+| ECE 219  | [Large-Scale Data Mining: Models and Algorithms](https://www.bruinwalk.com/classes/ec-engr-219/) |
+| CS 251B  | [Parallel Computer Architecture](https://www.bruinwalk.com/classes/com-sci-251b/) |
 | CS 251A  | [Advanced Computer Architecture](https://www.bruinwalk.com/classes/com-sci-251a/) |
 | CS 264A  | [Automated Reasoning](https://www.bruinwalk.com/classes/com-sci-264a/) |
 | CS 133  | [Parallel and Distributed Computing](https://www.bruinwalk.com/classes/com-sci-133/) |
