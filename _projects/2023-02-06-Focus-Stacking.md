@@ -35,7 +35,8 @@ cd Focus_Stacking
 
 # (optional) Create a Python virtual environment for better package management. You can use conda, virtualenv, etc.
 
-# Install required packages: OpenCV, Matlplotlib (TODO: add a requirements.txt)
+# Install required packages: OpenCV, Matlplotlib
+pip install -r requirements.txt
 
 # Run focus stacking program by:
 python focus_stack.py PATH/TO/IMAGE/DIR/
