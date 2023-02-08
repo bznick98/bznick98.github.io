@@ -5,7 +5,7 @@ date: 2023-02-06 00:00:00
 description: 
 featured_image: '/images/focus-stacking/demo.png'
 ---
-![](/images/focus-stacking/demo.png)
+![](/images/focus-stacking/fly.gif) ![](/images/focus-stacking/fly-result.jpg)
 
 
 ## What is Focus Stacking?
@@ -39,23 +39,48 @@ cd Focus_Stacking
 pip install -r requirements.txt
 
 # Run focus stacking program by:
-python focus_stack.py PATH/TO/IMAGE/DIR/
+python run.py PATH/TO/IMAGE/DIR/
+
+# or specify images separately
+python run.py PATH/TO/IMAGE1.jpg PATH/TO/IMAGE2.jpg ...
 
 # For more argument detail, see:
-python focus_stack.py -h
+python run.py -h
 ```
 
-
 ## Rough Performance Evaluation
-To evaluate the quality of final image, we can calculate the standard deviation of pixel values in each image. This metric will represents focusness of the image, higher is better.
+To evaluate the quality of final image, we can calculate the **average gradient magnitude** of pixel values in each image, which is an indicator of sharpness. This metric will represents focusness of the image, higher is better.
 
-|                  | Standard Deviation| 
+|     Example 1    | Average Gradient Magnitude (Sharpness) | 
 |------------------|-------------------|
-| Source Image 1   | 43.3302 |
-| Source Image 2   | 40.4064 | 
-| Source Image 3   | 41.2541 | 
-| Final Result	   | **46.8988** |
+| Average of Source Images   | 24.71 |
+| Final Result	   | **26.93** |
 
 ![](/images/focus-stacking/demo.png)
 
-From this rough measurement we can see that the final result has the highest standard deviation among all images, meaning it achieves the highest focusness. A future work is to come up with a better measurement of focusness and setup a testing set for measuring the performance of focus stacking algorithms.
+Examples below are taken from https://www.heliconsoft.com/helicon-focus-gallery/, which I screenshot several frames as the input images, the results produced are visually similar to the one produced by helicon-focus-gallery.
+
+|    Example 2     | Average Gradient Magnitude (Sharpness) | 
+|------------------|-------------------|
+| Average of Source Images   | 10.32 |
+| Final Result	   | **12.75** |
+
+![](/images/focus-stacking/macro-plot.png)
+
+
+|    Example 3     | Average Gradient Magnitude (Sharpness) | 
+|------------------|-------------------|
+| Average of Source Images   | 5.47 |
+| Final Result	   | **10.61** |
+
+![](/images/focus-stacking/fly-plot.png)
+
+|    Example 4     | Average Gradient Magnitude (Sharpness) | 
+|------------------|-------------------|
+| Average of Source Images   | 9.24 |
+| Final Result	   | **11.73** |
+
+![](/images/focus-stacking/gun-plot.png)
+
+From this rough measurement we can see that the final result has the sharpness among all images, meaning it achieves the highest focusness. A future work is to come up with a better measurement of focusness and setup a testing set for measuring the performance of focus stacking algorithms.
+
