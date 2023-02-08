@@ -5,8 +5,10 @@ date: 2023-02-06 00:00:00
 description: 
 featured_image: '/images/focus-stacking/demo.png'
 ---
-![](/images/focus-stacking/fly.gif) 
-![](/images/focus-stacking/fly-result.jpg)
+
+Input Image Sequences      |  Result
+:-------------------------:|:-------------------------:
+![](/images/focus-stacking/fly.gif)   |  ![](/images/focus-stacking/fly-result.jpg)
 
 
 ## What is Focus Stacking?
