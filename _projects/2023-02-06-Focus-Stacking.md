@@ -85,5 +85,5 @@ Examples below are taken from https://www.heliconsoft.com/helicon-focus-gallery/
 
 ![](/images/focus-stacking/gun-plot.png)
 
-From this rough measurement we can see that the final result has the sharpness among all images, meaning it achieves the highest focusness. A future work is to come up with a better measurement of focusness and setup a testing set for measuring the performance of focus stacking algorithms.
+From this rough measurement we can see that the final result has the highest sharpness among all images, meaning it achieves the highest focusness. A future work is to come up with a better measurement of focusness and setup a testing set for measuring the performance of focus stacking algorithms.
 
