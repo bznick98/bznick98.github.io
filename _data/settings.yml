@@ -63,19 +63,21 @@ color_settings:
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
-  accent_color: '#1b90e2'
+  accent_color: '#002199'
   border_color: '#dddddd'
-  overlay_background_color: '#417de2'
+  overlay_background_color: '#002199'
   overlay_text_color: '#ffffff'
-  overlay_accent_color: '#2A2F36'
+  overlay_accent_color: '#efdf70'
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;500&display=swap" rel="stylesheet">'
-  title_font: '"Prompt", sans-serif'
-  body_font: '"Prompt", sans-serif'
+  font_embed: '<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Days+One&family=Exo+2:wght@300;600&family=Mukta:wght@200;500&family=Prompt:wght@500&family=Questrial&display=swap" rel="stylesheet">'
+  title_font: '"Days One", sans-serif'
+  body_font: '"Exo 2", sans-serif'
   regular_weight: 300
-  bold_weight: 500
+  bold_weight: 600
   site_title:
     small_size: 25
     medium_size: 35
