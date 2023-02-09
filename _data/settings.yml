@@ -73,7 +73,7 @@ color_settings:
 font_settings:
   font_embed: '<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Days+One&family=Exo+2:wght@300;600&family=Mukta:wght@200;500&family=Prompt:wght@500&family=Questrial&display=swap" rel="stylesheet">'
+<link href="https://fonts.googleapis.com/css2?family=Days+One&family=Exo+2:wght@300;600&display=swap" rel="stylesheet">'
   title_font: '"Days One", sans-serif'
   body_font: '"Exo 2", sans-serif'
   regular_weight: 300
