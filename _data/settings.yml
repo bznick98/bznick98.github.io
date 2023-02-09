@@ -12,8 +12,8 @@ menu_settings:
     - title: 'Gallery'
       url: '/'
     # TODO:
-    # - title: 'Project'
-    #   url: '/project'
+    - title: 'Projects'
+      url: '/project'
     - title: 'About Me'
       url: '/about'
     - title: 'Contact'
