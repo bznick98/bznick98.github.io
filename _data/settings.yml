@@ -14,7 +14,7 @@ menu_settings:
     # TODO:
     - title: 'Projects'
       url: '/project'
-    - title: 'About Me'
+    - title: 'About'
       url: '/about'
     - title: 'Contact'
       url: '/contact'
