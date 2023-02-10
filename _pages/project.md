@@ -1,8 +1,8 @@
 ---
 layout: default
-title: A minimal, fixed sidebar grid portfolio Jekyll theme.
-description: A minimal, fixed sidebar grid portfolio Jekyll theme.
-featured_image: /images/social.jpg
+title: Projects
+description: Projects Page
+featured_image: /images/gallery/duku.jpg
 ---
 
 <section class="portfolio">
