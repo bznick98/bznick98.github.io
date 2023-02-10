@@ -1,8 +1,9 @@
 ---
-title: Photography Gallery
-subtitle: with Sony A7R3 & DJI Air 2S
+layout: homepage
+title: Gallery
+subtitle: 
 description: Art Gallery
-featured_image: /images/demo/demo-square.jpg
+featured_image: /images/gallery/anmq.jpg
 ---
 
 
