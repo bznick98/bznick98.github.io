@@ -11,7 +11,7 @@ My name is **Zongnan Bao**. I'm a master student at **UCLA** studying **Computer
 
 In my spare time, I love photography and like to share my works. Currently, I am a top-1000 contributer on the platform named [Unsplash](https://unsplash.com/@nick19981122), also a Getty Images Contributor. All of my recent photos will be uploaded to Unsplash and are free to download. In addition, I love music and I started out playing classical guitar and now I transitioned to acoustic guitar especially fingerstyles.
 
-👀 I am actively seeking for new grad **Software Engineer** roles in 2022/2023!
+👀 I am actively seeking for new grad **Software Engineer** or any other related roles in 2023!
 
 
 
@@ -29,19 +29,29 @@ In my spare time, I love photography and like to share my works. Currently, I am
 <img src="/images/misc/dolby.png" alt="dolby-logo" width="200" align="right"/>
 
 ##### [Dolby Laboratories](https://www.dolby.com/) - Image Engineering Intern
-I'm currently working at Dolby as an Image Engineering Intern. I'm working on Dolby Vision related project aiming to restore image metadata from HDR/SDR pairs using Particle Swarms Optimization (PSO). Besides that, I also researched and implemented deep learning papers related to HDR photo enhancement.
+<small>6 Months</small>
+
+I worked at Dolby as an Image Engineering Intern. I was working on Dolby Vision related project aiming to restore image metadata from HDR/SDR pairs using Particle Swarms Optimization (PSO). Besides that, I also researched and implemented deep learning papers related to HDR photo enhancement. 
+
+<small>"Estimating Metadata for Images Having Absent Metadata or Unusable Form of Metadata", U.S. Provisional Patent No. 63/425,814 filed on Nov 16, 2022.</small>
 
 <img src="/images/misc/yitu.png" alt="yitu-logo" width="200" align="right"/>
 
 ##### [YITU Technology](https://www.yitutech.com/en) - Computer Vision Research Intern
-I was working as a Computer Vision Research Intern at YITU Technology. Our group focus on computer vision applications for making city more "intelligent". I mostly worked on training, evaluating and improving object detection algorithms like Single-shot Multibox Detector (SSD).
+<small>3 Months</small>
+
+I worked as a Computer Vision Research Intern at YITU Technology. Our group focus on computer vision applications for making city more "intelligent". I mostly worked on training, evaluating and improving object detection algorithms like Single-shot Multibox Detector (SSD).
 
 ## Education
 ##### [University of California, Los Angeles](https://www.cs.ucla.edu/) (UCLA)
-Master of Science in Computer Science graduate in June 2023 (Expected)
+<small>09/2021 - 06/2023</small>
+
+Master of Science in Computer Science
 
 ##### [University of Illinois at Urbana-Champaign](https://ece.illinois.edu/) (UIUC)
-Bachelor of Science in Computer Engineering graduated in May 2021
+<small>08/2017 - 05/2021</small>
+
+Bachelor of Science in Computer Engineering
 
 ## Relevant Courseworks
 
