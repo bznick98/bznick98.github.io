@@ -7,9 +7,9 @@ featured_image: /images/demo/demo-square.jpg
 
 <img src="/images/face/zb-1000x1000.jpg" alt="drawing" width="200"/>
 
-My name is **Zongnan Bao**. I'm a master student at **UCLA** studying **Computer Science**. Before that, I received my bachelor’s degree from **University of Illinois at Urbana Champaign** in 2021 as a **Computer Engineering** student. 
+Hello, I'm **Zongnan Bao** and I'm currently pursuing a Master's degree in Computer Science at **UCLA**. I received my Bachelor's degree in Computer Engineering from the **University of Illinois at Urbana Champaign** in 2021.
 
-In my spare time, I love photography and like to share my works. Currently, I am a top-1000 contributer on the platform named [Unsplash](https://unsplash.com/@nick19981122), also a Getty Images Contributor. All of my recent photos will be uploaded to Unsplash and are free to download. In addition, I love music and I started out playing classical guitar and now I transitioned to acoustic guitar especially fingerstyles.
+Aside from academics, I have a passion for photography and I enjoy sharing my works online. I am proud to say that I am a top-1000 contributor on [Unsplash](https://unsplash.com/@nick19981122), as well as a Getty Images Contributor. All of my latest photographs are available for free download on Unsplash. Additionally, I have a love for music and started playing classical guitar, but have since transitioned to playing fingerstyle acoustic guitar. 
 
 👀 I am actively seeking for new grad **Software Engineer** or any other related roles in 2023!
 
@@ -26,21 +26,28 @@ In my spare time, I love photography and like to share my works. Currently, I am
 <br>
 
 ## Experiences
+
+<img src="/images/misc/qualcomm.png" alt="qualcomm-logo" width="200" align="right"/>
+
+##### [Qualcomm](https://www.qualcomm.com/home)
+<small>**Camera Architect** - In coming</small>
+
+TBD
+
 <img src="/images/misc/dolby.png" alt="dolby-logo" width="200" align="right"/>
 
-##### [Dolby Laboratories](https://www.dolby.com/) - Image Engineering Intern
-<small>6 Months</small>
+##### [Dolby Laboratories](https://www.dolby.com/)
+<small>**Image Engineering Intern** - 6 Months</small>
 
-I worked at Dolby as an Image Engineering Intern. I was working on Dolby Vision related project aiming to restore image metadata from HDR/SDR pairs using Particle Swarms Optimization (PSO). Besides that, I also researched and implemented deep learning papers related to HDR photo enhancement. 
+During my time at Dolby, I had the opportunity to work as an Image Engineering Intern. My main project was focused on restoring image metadata from HDR/SDR pairs using Particle Swarm Optimization (PSO) for [Dolby Vision](https://www.dolby.com/technologies/dolby-vision/). Additionally, I conducted research and successfully implemented deep learning papers for enhancing HDR photos. The project was successfully converted to a U.S. Provisional Patent No. 63/425,814 titled <small>"Estimating Metadata for Images Having Absent Metadata or Unusable Form of Metadata"</small> filed on Nov 16, 2022.
 
-<small>"Estimating Metadata for Images Having Absent Metadata or Unusable Form of Metadata", U.S. Provisional Patent No. 63/425,814 filed on Nov 16, 2022.</small>
 
 <img src="/images/misc/yitu.png" alt="yitu-logo" width="200" align="right"/>
 
-##### [YITU Technology](https://www.yitutech.com/en) - Computer Vision Research Intern
-<small>3 Months</small>
+##### [YITU Technology](https://www.yitutech.com/en)
+<small>**Computer Vision Research Intern** - 3 Months</small>
 
-I worked as a Computer Vision Research Intern at YITU Technology. Our group focus on computer vision applications for making city more "intelligent". I mostly worked on training, evaluating and improving object detection algorithms like Single-shot Multibox Detector (SSD).
+As a Computer Vision Research Intern at YITU Technology, I was part of a team focused on using computer vision to make cities more "intelligent." During my time there, I was primarily responsible for training, evaluating, and improving object detection algorithms such as the Single-shot Multibox Detector (SSD). 
 
 ## Education
 ##### [University of California, Los Angeles](https://www.cs.ucla.edu/) (UCLA)
