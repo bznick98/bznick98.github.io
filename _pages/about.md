@@ -7,7 +7,7 @@ featured_image: /images/gallery/meili.jpg
 
 <img src="/images/face/zb-1000x1000.jpg" alt="drawing" width="200"/>
 
-Hello, I'm **Zongnan Bao** and I'm currently pursuing a Master's degree in Computer Science at **UCLA**. I received my Bachelor's degree in Computer Engineering from the **University of Illinois at Urbana Champaign** in 2021.
+Hello, I'm **Zongnan Bao** (鲍宗南) and I'm currently pursuing a Master's degree in Computer Science at **UCLA**. I received my Bachelor's degree in Computer Engineering from the **University of Illinois at Urbana Champaign** in 2021.
 
 Aside from academics, I have a passion for photography and I enjoy sharing my works online. I am proud to say that I am a top-1000 contributor on [Unsplash](https://unsplash.com/@nick19981122), as well as a Getty Images Contributor. All of my latest photographs are available for free download on Unsplash. Additionally, I have a love for music and started playing classical guitar, but have since transitioned to playing fingerstyle acoustic guitar. 
 
