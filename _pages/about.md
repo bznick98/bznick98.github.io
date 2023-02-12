@@ -11,9 +11,6 @@ Hello, I'm **Zongnan Bao** and I'm currently pursuing a Master's degree in Compu
 
 Aside from academics, I have a passion for photography and I enjoy sharing my works online. I am proud to say that I am a top-1000 contributor on [Unsplash](https://unsplash.com/@nick19981122), as well as a Getty Images Contributor. All of my latest photographs are available for free download on Unsplash. Additionally, I have a love for music and started playing classical guitar, but have since transitioned to playing fingerstyle acoustic guitar. 
 
-👀 I am actively seeking for new grad **Software Engineer** or any other related roles in 2023!
-
-
 
 
 <br>
