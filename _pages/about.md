@@ -2,7 +2,7 @@
 title: About Me
 subtitle: 
 description: Me, myself and I
-featured_image: /images/demo/demo-square.jpg
+featured_image: /images/gallery/meili.jpg
 ---
 
 <img src="/images/face/zb-1000x1000.jpg" alt="drawing" width="200"/>
@@ -32,7 +32,8 @@ Aside from academics, I have a passion for photography and I enjoy sharing my wo
 ##### [Qualcomm](https://www.qualcomm.com/home)
 <small>**Camera Architect** - In coming</small>
 
-TBD
+TBD...
+
 
 <img src="/images/misc/dolby.png" alt="dolby-logo" width="200" align="right"/>
 
