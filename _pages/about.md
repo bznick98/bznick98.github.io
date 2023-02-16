@@ -48,10 +48,15 @@ During my time at Dolby, I had the opportunity to work as an Image Engineering I
 As a Computer Vision Research Intern at YITU Technology, I was part of a team focused on using computer vision to make cities more "intelligent." During my time there, I was primarily responsible for training, evaluating, and improving object detection algorithms such as the Single-shot Multibox Detector (SSD). 
 
 ## Education
+
+<img src="/images/misc/ucla.png" alt="yitu-logo" width="200" align="right"/>
+
 ##### [University of California, Los Angeles](https://www.cs.ucla.edu/) (UCLA)
 <small>09/2021 - 06/2023</small>
 
 Master of Science in Computer Science
+
+<img src="/images/misc/uiuc.png" alt="yitu-logo" width="100" align="right"/>
 
 ##### [University of Illinois at Urbana-Champaign](https://ece.illinois.edu/) (UIUC)
 <small>08/2017 - 05/2021</small>
