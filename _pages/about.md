@@ -5,7 +5,7 @@ description: Me, myself and I
 featured_image: /images/gallery/meili.jpg
 ---
 
-<img src="/images/face/zb-1000x1000.jpg" alt="drawing" width="200"/>
+<img src="/images/face/zb-circle.png" alt="drawing" width="200"/>
 
 Hello, I'm **Zongnan Bao** (鲍宗南) and I'm currently pursuing a Master's degree in Computer Science at **UCLA**. I received my Bachelor's degree in Computer Engineering from the **University of Illinois at Urbana Champaign** in 2021.
 
@@ -42,7 +42,7 @@ During my time at Dolby, I had the opportunity to work as an Image Engineering I
 
 <img src="/images/misc/yitu.png" alt="yitu-logo" width="200" align="right"/>
 
-##### [YITU Technology](https://www.yitutech.com/en)
+##### [YITU Technology 依图科技](https://www.yitutech.com/en) 
 <small>**Computer Vision Research Intern** - 3 Months</small>
 
 As a Computer Vision Research Intern at YITU Technology, I was part of a team focused on using computer vision to make cities more "intelligent." During my time there, I was primarily responsible for training, evaluating, and improving object detection algorithms such as the Single-shot Multibox Detector (SSD). 
