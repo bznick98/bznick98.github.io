@@ -51,14 +51,14 @@ As a Computer Vision Research Intern at YITU Technology, I was part of a team fo
 
 <img src="/images/misc/ucla.png" alt="yitu-logo" width="200" align="right"/>
 
-##### [University of California, Los Angeles](https://www.cs.ucla.edu/) (UCLA)
+##### [University of California, Los Angeles](https://www.cs.ucla.edu/) 
 <small>09/2021 - 06/2023</small>
 
 Master of Science in Computer Science
 
 <img src="/images/misc/uiuc.png" alt="yitu-logo" width="100" align="right"/>
 
-##### [University of Illinois at Urbana-Champaign](https://ece.illinois.edu/) (UIUC)
+##### [University of Illinois at Urbana-Champaign](https://ece.illinois.edu/)
 <small>08/2017 - 05/2021</small>
 
 Bachelor of Science in Computer Engineering
