@@ -22,7 +22,6 @@
 	}
 
 	.wrap {
-
 		@include mq(tabletl) {
 			max-width: 70%;
 		}
@@ -30,6 +29,7 @@
 		@include mq(laptop) {
 			max-width: 70%;
 		}
+
 	}
 	
 	h1 {

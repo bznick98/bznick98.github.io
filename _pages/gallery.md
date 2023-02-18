@@ -1,38 +1,46 @@
 ---
-layout: homepage
+layout: default
 title: Gallery
-subtitle: 
-description: Art Gallery
-featured_image: /images/gallery/anmq.jpg
+description: Gallery Page
+featured_image: /images/gallery/duku.jpg
 ---
 
+<section class="portfolio">
+	<br><br>
+	<div class="wrap">
+		<h1>{{ page.title }}</h1>
+		<br>
+	</div>
+</section>
 
-<div class="gallery" data-columns="3">
-    <img src="/images/gallery/lbyz.jpg">
-    <img src="/images/gallery/slowmo_boomerang.gif">
-    <img src="/images/gallery/anmq.jpg">
-    <img src="/images/gallery/cnf.jpg">
-    <img src="/images/gallery/qkst-star.jpg">
-    <img src="/images/gallery/sailimu.jpg">
-    <img src="/images/gallery/village.jpg">
-    <img src="/images/gallery/menyuan.jpg">
-    <img src="/images/gallery/meili.jpg">
-    <img src="/images/gallery/geisel.jpg">
-    <img src="/images/gallery/g214.jpg">
-    <img src="/images/gallery/edgeijen.jpg">
-    <img src="/images/gallery/mzm.jpg">
-    <img src="/images/gallery/duku.jpg">
-    <img src="/images/gallery/xiata.jpg">
-    <img src="/images/gallery/kremlin.jpg">
-    <img src="/images/gallery/atlanta.jpg">
-    <img src="/images/gallery/mm-road.jpg">
-    <img src="/images/gallery/wnd.jpg">
-    <img src="/images/gallery/star.jpg">
-    <img src="/images/gallery/xiapu.jpg">
-    <img src="/images/gallery/FoggyBromoHorse.jpg">
-    <img src="/images/gallery/trump.jpg">
-    <!-- <img src="/images/gallery/smoke-bw.jpg"> -->
-    <!-- <img src="/images/gallery/IjenLake.jpg"> -->
-</div>
 
-<!-- <img src="/images/gallery/.jpg"> -->
+<section class="portfolio">
+
+	<div class="content-wrap wrap">
+
+		{% for post in site.posts reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ post.url | relative_url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ post.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ post.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>

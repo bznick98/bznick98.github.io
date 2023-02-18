@@ -7,11 +7,10 @@
 .portfolio {
 	margin-top: 0;
 	padding: $grid-spacing/2;
-
 }
 
 .portfolio-wrap {
-
+	
 }
 
 .portfolio-item {
@@ -51,7 +50,7 @@
 
 	opacity: 0;
 	visibility: hidden;
-	@include transition(all 0.2s ease-in-out);
+	@include transition(all 0.3s ease-in-out);
 }
 
 .portfolio-item__info {

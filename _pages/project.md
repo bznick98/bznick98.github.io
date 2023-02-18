@@ -6,11 +6,11 @@ featured_image: /images/gallery/duku.jpg
 ---
 
 <section class="portfolio">
-<div class="wrap">
-<br>
-<h1>Projects</h1>
-<br>
-</div>
+	<br><br>
+	<div class="wrap">
+		<h1>{{ page.title }}</h1>
+		<br>
+	</div>
 </section>
 
 

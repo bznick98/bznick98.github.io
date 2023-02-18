@@ -1,0 +1,137 @@
+// - - - - - - - - - - - - - - - - - -
+
+// photo
+
+// - - - - - - - - - - - - - - - - - -
+
+.photo {
+	visibility: hidden;
+	position: relative;
+	margin: 20px auto;
+
+	@include mq(tabletp) {
+		margin: 30px auto;
+	}
+
+	@include mq(tabletl) {
+
+	}
+
+	@include mq(laptop) {
+		margin: 40px auto;
+	}
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.photo--on {
+	visibility: visible;
+}
+
+.photo__item {
+	position: relative;
+
+	img {
+		width: 100%
+	}
+}
+
+
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Grid
+
+.photo--grid {
+
+	.photo__wrap {
+		margin-left: -$grid-spacing/2;
+		margin-right: -$grid-spacing/2;
+	}
+	
+	.photo__item {
+		float: left;
+		width: 50%;
+		padding: $grid-spacing/2;
+	}
+
+	.photo__item__link {
+		display: block;
+		cursor: zoom-in;
+	}
+
+	&[data-columns="3"] {
+
+		.photo__item {
+			width: 33.33%;
+		}
+	}
+
+	&[data-columns="4"] {
+
+		.photo__item {
+			width: 33.33%;
+		}
+
+		@include mq(tabletp) {
+
+			.galleryindex__item {
+				width: 25%;
+			}
+		}
+	}
+
+	&[data-columns="5"] {
+
+		.photo__item {
+			width: 33.33%;
+		}
+
+		@include mq(tabletp) {
+
+			.photo__item {
+				width: 25%;
+			}
+		}
+
+		@include mq(tabletl) {
+
+			.photo__item {
+				width: 20%;
+			}
+		}
+	}
+
+	&[data-columns="6"] {
+
+		.photo__item {
+			width: 33.33%;
+		}
+
+		@include mq(tabletp) {
+
+			.photo__item {
+				width: 25%;
+			}
+		}
+
+		@include mq(tabletl) {
+
+			.photo__item {
+				width: 20%;
+			}
+		}
+
+		@include mq(laptop) {
+
+			.photo__item {
+				width: 16.66%;
+			}
+		}
+	}
+}
+
+
+
