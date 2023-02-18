@@ -79,6 +79,8 @@
 	font-size: $grid-item-subtitle-small;
 	font-weight: $grid-item-subtitle-weight;
 	letter-spacing: $grid-item-subtitle-spacing;
+	margin-left: 5%;
+	margin-right: 5%;
 
 	@include mq(tabletp) {
 		font-size: $grid-item-subtitle-medium;

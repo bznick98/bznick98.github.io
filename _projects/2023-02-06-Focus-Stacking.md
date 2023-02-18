@@ -3,7 +3,7 @@ title: 'Focus Stacking'
 subtitle: 'A technique that combines multiple images taken at different focus distances to produce a final image with a greater depth of field.'
 date: 2023-02-06 00:00:00
 description: 
-featured_image: '/images/gallery/anmq.jpg'
+featured_image: '/images/gallery/cnf.jpg'
 ---
 
 Input Image Sequences      |  Result
