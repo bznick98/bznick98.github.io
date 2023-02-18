@@ -6,8 +6,17 @@ featured_image: /images/gallery/duku.jpg
 ---
 
 <section class="portfolio">
+<div class="wrap">
+<br>
+<h1>Projects</h1>
+<br>
+</div>
+</section>
 
-	<div class="content-wrap portfolio-wrap">
+
+<section class="portfolio">
+
+	<div class="content-wrap wrap">
 
 		{% for project in site.projects reversed %}
 

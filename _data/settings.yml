@@ -5,7 +5,7 @@ basic_settings:
 
 header_settings:
   logo_image: 
-  logo_width: 200
+  logo_width: 20
 
 menu_settings:
   menu_items:
@@ -21,7 +21,7 @@ menu_settings:
 
 grid_settings:
   overlay_opacity: 0.3
-  grid_spacing: 20
+  grid_spacing: 5
 
 contact_settings:
   form_action: 'https://formspree.io/f/xdojoead'
@@ -70,6 +70,7 @@ color_settings:
   overlay_text_color: '#ffffff'
   overlay_accent_color: '#efdf70'
   error_color: '#D64541'
+  project_overlay_color: '#000000'
 
 font_settings:
   font_embed: '<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -139,23 +140,23 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   h5:
-    small_size: 17
+    small_size: 18
     medium_size: 20
-    large_size: 20
+    large_size: 21
     weight: 500
     letter_spacing: 0
     line_height: 1.6
   h6:
     small_size: 17
-    medium_size: 20
-    large_size: 20
+    medium_size: 18
+    large_size: 19
     weight: 500
     letter_spacing: 0
     line_height: 1.6
   p:
-    small_size: 16
+    small_size: 17
     medium_size: 18
-    large_size: 20
+    large_size: 19
     weight: 300
     letter_spacing: 0
     line_height: 1.6

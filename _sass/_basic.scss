@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1 {
+	margin-top: 40px;
 	font-size: $h1-small;
 	font-weight: $h1-weight;
 	line-height: $h1-lineheight;
@@ -128,7 +129,11 @@ h6, .h6 {
 	}
 }
 
-p, ul, ol {
+details {
+	margin-top: 5px;
+}
+
+p, ul, ol{
 	margin-top: 10px;
 	font-size: $p-small;
 	font-weight: $p-weight;
@@ -190,7 +195,7 @@ blockquote {
 	}
 }
 
-a {
+a, summary {
 	text-decoration: none;
 	color: $text-dark-color;
 	font-weight: $bold-weight;
@@ -207,6 +212,7 @@ a {
 	font-size: 13px;
 	line-height: 1;
 	border: 2px solid $accent-color;
+	border-radius: 50px;
 	background: $accent-color;
 	color: $background-color;
 	font-weight: $button-weight;

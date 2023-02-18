@@ -22,19 +22,19 @@ Aside from academics, I have a passion for photography and I enjoy sharing my wo
 
 <br>
 
-## Experiences
+## Experience
 
 <img src="/images/misc/qualcomm.png" alt="qualcomm-logo" width="200" align="right"/>
 
-##### [Qualcomm](https://www.qualcomm.com/home)
+###### [Qualcomm](https://www.qualcomm.com/home)
 <small>**Camera Architect** - In coming</small>
 
 TBD...
 
 
-<img src="/images/misc/dolby.png" alt="dolby-logo" width="200" align="right"/>
+<img src="/images/misc/dolby.png" alt="dolby-logo" width="180" align="right"/>
 
-##### [Dolby Laboratories](https://www.dolby.com/)
+###### [Dolby Laboratories](https://www.dolby.com/)
 <small>**Image Engineering Intern** - 6 Months</small>
 
 During my time at Dolby, I had the opportunity to work as an Image Engineering Intern. My main project was focused on restoring image metadata from HDR/SDR pairs using Particle Swarm Optimization (PSO) for [Dolby Vision](https://www.dolby.com/technologies/dolby-vision/). Additionally, I conducted research and successfully implemented deep learning papers for enhancing HDR photos. The project was successfully converted to a U.S. Provisional Patent No. 63/425,814 titled <small>"Estimating Metadata for Images Having Absent Metadata or Unusable Form of Metadata"</small> filed on Nov 16, 2022.
@@ -42,30 +42,21 @@ During my time at Dolby, I had the opportunity to work as an Image Engineering I
 
 <img src="/images/misc/yitu.png" alt="yitu-logo" width="200" align="right"/>
 
-##### [YITU Technology 依图科技](https://www.yitutech.com/en) 
+###### [YITU Technology 依图科技](https://www.yitutech.com/en) 
 <small>**Computer Vision Research Intern** - 3 Months</small>
 
 As a Computer Vision Research Intern at YITU Technology, I was part of a team focused on using computer vision to make cities more "intelligent." During my time there, I was primarily responsible for training, evaluating, and improving object detection algorithms such as the Single-shot Multibox Detector (SSD). 
 
 ## Education
 
-<img src="/images/misc/ucla.png" alt="yitu-logo" width="200" align="right"/>
+<img src="/images/misc/ucla.png" alt="yitu-logo" width="150" align="right"/>
 
-##### [University of California, Los Angeles](https://www.cs.ucla.edu/) 
-<small>09/2021 - 06/2023</small>
+###### [University of California, Los Angeles](https://www.cs.ucla.edu/) 
+<small>**09/2021 - 06/2023** | Master of Science in Computer Science</small>
 
-Master of Science in Computer Science
+<details markdown="1"><summary>Relevant Courses Taken</summary>
 
-<img src="/images/misc/uiuc.png" alt="yitu-logo" width="100" align="right"/>
-
-##### [University of Illinois at Urbana-Champaign](https://ece.illinois.edu/)
-<small>08/2017 - 05/2021</small>
-
-Bachelor of Science in Computer Engineering
-
-## Relevant Courseworks
-
-| Course (UCLA)  | Course Name |
+| Course #  | Course Title (UCLA) |
 | ------------- | ------------- |
 | ECE 219  | [Large-Scale Data Mining: Models and Algorithms](https://www.bruinwalk.com/classes/ec-engr-219/) |
 | CS 251B  | [Parallel Computer Architecture](https://www.bruinwalk.com/classes/com-sci-251b/) |
@@ -79,7 +70,16 @@ Bachelor of Science in Computer Engineering
 | CS 269-3  | [Seminar in Computer Vision: Deformable Contour Models](https://ccle.ucla.edu/course/view/21F-COMSCI269-3) |
 | MATH 273A  | [Optimization and Calculus of Variations: Basic Optimization Theory](https://ccle.ucla.edu/course/view/21F-MATH273A-1) |
 
-| Course (UIUC)  | Course Name |
+</details>
+
+<img src="/images/misc/uiuc.png" alt="yitu-logo" width="80" align="right"/>
+
+###### [University of Illinois at Urbana-Champaign](https://ece.illinois.edu/)
+<small>**08/2017 - 05/2021** | Bachelor of Science in Computer Engineering</small>
+
+<details markdown="1"><summary>Relevant Courses Taken</summary>
+
+| Course #  | Course Title (UIUC) |
 | ------------- | ------------- |
 | ECE411  | [Computer Organization and Design](https://courses.grainger.illinois.edu/ece411/fa2021/course.html) |
 | CS446  | [Machine Learning](https://relate.cs.illinois.edu/course/CS446-fa20/) |
@@ -97,3 +97,12 @@ Bachelor of Science in Computer Engineering
 | ECE313 | [Probability with Engineering Applications](https://ece.illinois.edu/academics/courses/profile/ECE313) |
 | ECE210/310 | [Analog](https://ece.illinois.edu/academics/courses/profile/ECE210)/[Digital](https://ece.illinois.edu/academics/courses/profile/ECE310) Signal Processing |
 | ECE110/120 | Intro to [Electronics](https://ece.illinois.edu/academics/courses/profile/ECE110)/[Computing](https://ece.illinois.edu/academics/courses/profile/ECE120)  |
+
+</details>
+
+## Projects
+See [projects]({{site.baseurl}}/project) for more detail, will add more projects in the future.
+
+
+
+

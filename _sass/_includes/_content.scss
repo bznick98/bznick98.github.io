@@ -28,7 +28,7 @@
 		}
 
 		@include mq(laptop) {
-			max-width: 65%;
+			max-width: 70%;
 		}
 	}
 	
@@ -45,7 +45,7 @@
 }
 
 .content-wrap {
-	
+
 }
 
 .single {
@@ -55,18 +55,18 @@
 	min-height: 100vh;
 
 	@include mq(tabletp) {
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 
 	@include mq(tabletl) {
-		padding: 40px $grid-spacing;
+		padding: 10px $grid-spacing;
 	}
 
 	@include mq(laptop) {
-		padding: 60px $grid-spacing;
+		padding: 10px $grid-spacing;
 	}
 
-	h1, h2, h3, h4, h5, h6, p, ul, ol {
+	h1, h2, h3, h4, h5, h6, p, ul, ol, details{
 		margin-left: auto;
 		margin-right: auto;
 
@@ -78,7 +78,7 @@
 		}
 
 		@include mq(laptop) {
-			max-width: 65%;
+			max-width: 70%;
 		}
 	}
 
@@ -209,11 +209,11 @@
 			font-weight: $p-weight;
 
 			@include mq(tabletp) {
-				padding: 15px;
+				padding: 10px;
 			}
 
 			@include mq(laptop) {
-				padding: 20px;
+				padding: 10px;
 			}
 		}
 		
@@ -301,13 +301,20 @@
 .video-wrap {
 	position: relative;
 	margin: 20px auto;
+	max-width: 100%;
 
 	@include mq(tabletp) {
-		margin: 30px auto;
+		margin: 20px auto;
+	}
+
+	@include mq(tabletl) {
+		margin: 20px auto;
+		max-width: 70%;
 	}
 
 	@include mq(laptop) {
-		margin: 40px auto;
+		margin: 20px auto;
+		max-width: 70%;
 	}
 
 	&:first-child {

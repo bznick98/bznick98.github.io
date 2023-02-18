@@ -7,10 +7,11 @@
 .portfolio {
 	margin-top: 0;
 	padding: $grid-spacing/2;
+
 }
 
 .portfolio-wrap {
-	
+
 }
 
 .portfolio-item {
@@ -24,14 +25,11 @@
 	position: relative;
 	display: block;
 
-	@include mq(tabletl) {
+	&:hover {
 
-		&:hover {
-
-			.portfolio-item__content {
-				opacity: 1;
-				visibility: visible;
-			}
+		.portfolio-item__content {
+			opacity: 1;
+			visibility: visible;
 		}
 	}
 }
@@ -49,7 +47,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: rgba($overlay-background-color, $overlay-opacity);
+	background: rgba($project_overlay_color, $overlay-opacity);
 
 	opacity: 0;
 	visibility: hidden;
@@ -77,7 +75,7 @@
 
 .portfolio-item__subtitle {
 	margin-top: 5px;
-	color: rgba($overlay-text-color, 0.7);
+	color: rgba($overlay-text-color, 0.9);
 	font-size: $grid-item-subtitle-small;
 	font-weight: $grid-item-subtitle-weight;
 	letter-spacing: $grid-item-subtitle-spacing;

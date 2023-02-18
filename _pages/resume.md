@@ -5,6 +5,7 @@ description: Resume Page
 featured_image: /images/demo/demo-square.jpg
 ---
 
+
 <center>
-    <iframe src="/images/zongnan-bao-resume.pdf" style="width:800px; height:1080px;" frameborder="0"></iframe>
+    <iframe src="/images/zongnan-bao-resume.pdf" style="width:70%; height:unset; aspect-ratio: 8.5/11" frameborder="0"></iframe>
 </center>
