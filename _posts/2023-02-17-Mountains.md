@@ -1,6 +1,6 @@
 ---
 title: 'Mountains'
-subtitle: 'A Fake Introduction to Mountains'
+subtitle: 'Mountains'
 date: 2023-02-17 00:00:00
 description: 
 featured_image: '/images/gallery/anmq.jpg'
@@ -24,7 +24,6 @@ featured_image: '/images/gallery/anmq.jpg'
     <img src="/images/gallery/xiata.jpg">
     <img src="/images/gallery/mm-road.jpg">
     <img src="/images/gallery/wnd.jpg">
-    <img src="/images/gallery/FoggyBromoHorse.jpg">
-    <img src="/images/gallery/bluefire.jpg">
+    <img src="/images/gallery/BlueFire.jpg">
     <img src="/images/gallery/IjenLake.jpg">
 </div>
