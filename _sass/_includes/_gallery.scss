@@ -8,6 +8,7 @@
 	visibility: hidden;
 	position: relative;
 	margin: 20px auto;
+	
 
 	@include mq(tabletp) {
 		margin: 30px auto;
@@ -27,6 +28,7 @@
 }
 
 .gallery--on {
+	height: 100%;
 	visibility: visible;
 }
 
@@ -45,20 +47,25 @@
 .gallery--carousel {
 
 	.gallery__wrap {
-
+		height: 100%;
 	}
 	
 	.gallery__item {
+		margin-left: 23.2%;
 
+		img {
+			width: 70%;
+		}
 	}
+
 
 	.gallery__item__link {
 		display: block;
-		pointer-events: none;
+		pointer-events: zoom-in;
 	}
 
 	.gallery__item__image {
-
+		width: 100%;
 	}
 
 	.owl-nav {
@@ -72,8 +79,8 @@
 		.owl-dot {
 			display: inline-block;
 			margin: 0 3px;
-			width: 12px;
-			height: 12px;
+			width: 20px;
+			height: 20px;
 			border: 0;
 			border-radius: 100%;
 			background: $text-light-color;
@@ -82,7 +89,7 @@
 			outline: none;
 
 			&.active {
-				background: $accent-color;
+				background: #000000;
 			}
 		}
 	}
