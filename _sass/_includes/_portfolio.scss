@@ -69,7 +69,7 @@
 	}
 
 	@include mq(tabletp) {
-		font-size: $grid-item-title-medium;
+		font-size: 0.8*$grid-item-title-medium;
 	}
 
 	@include mq(laptop) {
@@ -91,7 +91,7 @@
 	}
 
 	@include mq(tabletp) {
-		font-size: $grid-item-subtitle-medium;
+		font-size: 0.8*$grid-item-subtitle-medium;
 	}
 
 	@include mq(laptop) {
