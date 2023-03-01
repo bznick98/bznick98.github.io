@@ -51,10 +51,20 @@
 	}
 	
 	.gallery__item {
-		margin-left: 23.2%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 60vh;
+		// max-height: 80vh;
 
 		img {
-			width: 70%;
+			max-height: 50vh;
+			width: auto;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
 		}
 	}
 
@@ -62,9 +72,27 @@
 	.gallery__item__link {
 		display: block;
 		pointer-events: zoom-in;
+		cursor: default;
+		max-height: 60vh;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		// max-width: 100%;
 	}
 
 	.gallery__item__image {
+		width: auto;
+		max-height: 60vh;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.owl-stage {
+		width: 100%;
+	}
+
+	.owl-stage-outer {
 		width: 100%;
 	}
 
