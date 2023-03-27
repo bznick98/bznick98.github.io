@@ -1,7 +1,7 @@
 ---
 title: 'Hasselblad 503cx'
 subtitle: 'with 80mm f/2.8 CFE Lens'
-date: 2023-02-18 00:00:00
+date: 9999-02-18 00:00:00
 description: 
 featured_image: '/images/gallery/hasselblad/3.jpg'
 ---
