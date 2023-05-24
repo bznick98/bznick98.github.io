@@ -82,6 +82,30 @@
 		}
 	}
 
+	details {
+		margin-top: 10px;
+		p {
+			margin-top: 5px;
+			@include mq(tabletp) {
+				max-width: 95%;
+			}
+	
+			@include mq(tabletl) {
+				max-width: 90%;
+			}
+	
+			@include mq(laptop) {
+				max-width: 90%;
+			}
+		}
+
+		table {
+			margin-top: 10px;
+		}
+	}
+	
+
+
 	hr {
 		margin: 20px auto;
 
@@ -123,6 +147,7 @@
 		border-bottom: 2px solid $accent-color;
 	}
 
+
 	p .button {
 		margin-top: 10px;
 	}
@@ -149,7 +174,7 @@
 
 		@include mq(laptop) {
 			margin: 40px auto;
-			max-width: 65%;
+			max-width: 70%;
 		}
 	}
 
@@ -189,7 +214,9 @@
 	}
 
 	table {
-		min-width: 600px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		min-width: 400px;
 		border: 2px solid $text-dark-color;
 
 		thead {

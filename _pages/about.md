@@ -22,7 +22,7 @@ Aside from academics, I have a passion for photography and I enjoy sharing my wo
 
 <br>
 
-## Experience
+### Experience
 
 <img src="/images/misc/qualcomm.png" alt="qualcomm-logo" width="200" align="right"/>
 
@@ -47,7 +47,7 @@ During my time at Dolby, I had the opportunity to work as an Image Engineering I
 
 As a Computer Vision Research Intern at YITU Technology, I was part of a team focused on using computer vision to make cities more "intelligent." During my time there, I was primarily responsible for training, evaluating, and improving object detection algorithms such as the Single-shot Multibox Detector (SSD). 
 
-## Education
+### Education
 
 <img src="/images/misc/ucla.png" alt="yitu-logo" width="150" align="right"/>
 
@@ -100,7 +100,7 @@ As a Computer Vision Research Intern at YITU Technology, I was part of a team fo
 
 </details>
 
-## Projects
+### Projects
 See [projects]({{site.baseurl}}/project) for more detail, will add more projects in the future.
 
 

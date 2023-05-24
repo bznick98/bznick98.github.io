@@ -43,7 +43,7 @@ social_settings:
   amazon_url: ''
   apple_url: ''
   android_url: ''
-  tumblr_url: ''
+  tumblr_url: '';
   dribbble_url: ''
   behance_url: ''
   deviantart_url: ''
@@ -62,7 +62,7 @@ color_settings:
   background_color: '#ffffff'
   background_alt_color: '#F5F7FA'
   text_dark_color: '#2A2F36'
-  text_medium_color: '#6C7A89'
+  text_medium_color: '#5F6C7B'
   text_light_color: '#ABB7B7'
   accent_color: '#002199'
   border_color: '#dddddd'
@@ -75,11 +75,11 @@ color_settings:
 font_settings:
   font_embed: '<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Days+One&family=Exo+2:wght@300;600&display=swap" rel="stylesheet">'
+<link href="https://fonts.googleapis.com/css2?family=Days+One&family=Exo+2:wght@300;500&display=swap" rel="stylesheet">'
   title_font: '"Days One", sans-serif'
   body_font: '"Exo 2", sans-serif'
   regular_weight: 300
-  bold_weight: 600
+  bold_weight: 500
   site_title:
     small_size: 25
     medium_size: 35
@@ -92,7 +92,7 @@ font_settings:
     large_size: 20
     weight: 300
     letter_spacing: 0
-    line_height: 1.5
+    line_height: 1.2
   menu:
     small_size: 30
     medium_size: 15
@@ -112,9 +112,9 @@ font_settings:
     weight: 300
     letter_spacing: 0
   h1:
-    small_size: 25
-    medium_size: 35
-    large_size: 45
+    small_size: 15
+    medium_size: 25
+    large_size: 35
     weight: 500
     letter_spacing: -0.02
     line_height: 1.2
@@ -147,16 +147,16 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   h6:
-    small_size: 17
-    medium_size: 18
-    large_size: 19
+    small_size: 16
+    medium_size: 17
+    large_size: 18
     weight: 500
     letter_spacing: 0
     line_height: 1.6
   p:
-    small_size: 17
-    medium_size: 18
-    large_size: 19
+    small_size: 16
+    medium_size: 17
+    large_size: 18
     weight: 300
     letter_spacing: 0
     line_height: 1.6
