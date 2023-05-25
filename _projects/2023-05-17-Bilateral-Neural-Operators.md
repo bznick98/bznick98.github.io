@@ -3,13 +3,13 @@ title: 'Bilateral Neural Operators'
 subtitle: 'Learning image retouching process using sequential neural operators in bilateral space.'
 date: 2023-05-17 00:00:00
 description: 
-featured_image: '/images/bno/demo-1.png'
+featured_image: '/images/bno/color-9.jpg'
 ---
 
 ![](/images/bno/demo-top.png)
 
 ### Problem Statement
-**Image retouching** is the process of making changes or improvements to a photograph to enhance its appearance. The inputs includes but not limit to compressed jpeg images and raw sensor data from camera, and preferably outputs an 8-bit sRGB jpeg image for display. Most of the methods enhance the image includes but not limit to exposure correction, color style adjust and white balance correction.
+**Image enhancement** is the process of making changes or improvements to a photograph to enhance its appearance. The inputs are usually low-quality or raw images (e.g. low-light, color-distorted or unprocessed raw sensor data), and preferably outputs a visually pleasing high-quality image for display. Most of the essential steps when human photographer enhances the image includes exposure correction, color style adjustment and white balance correction, etc.
 
 Input Image      |  Result
 :-------------------------:|:-------------------------:
@@ -35,27 +35,27 @@ Image enhancement is not only useful for photographic purposes, but also helps d
 ### Existing Methods
 There are plenty of existing methods ranging from traditional image processing techniques like histogram equalization, to more recently deep learning approaches. Here we are focusing on some of the recent deep learning approaches since they show greater capability and generalizability.
 
-<details markdown="1"><summary>Bilateral Grid Based</summary>
+<details markdown="1"><summary>Bilateral-Grid Based Method</summary>
 
 <a name="HDRNetTag"></a>
 
-[HDRNet](https://groups.csail.mit.edu/graphics/hdrnet/) originated from the technique (or data structure) named **Bilateral Grid**. Comparing to processing full resolution image, processing in bilateral space is faster and edge-aware. Bilateral grid is predicted using downsampled image (thus faster), and final output is [sliced](https://people.csail.mit.edu/sparis/publi/2007/siggraph/Chen_07_Bilateral_Grid.pdf) from the predicted grid using the full-res image to produce, without needing to feed the full-res image into the network. The benefit of this bilateral grid based approach is that it works fast and the runtime is less dependent on the input resolution.
+Bilateral grid comes from the paper [HDRNet](https://groups.csail.mit.edu/graphics/hdrnet/). It is a data structure that represents an image transformation. Comparing to processing full resolution image, processing in bilateral space is **faster** and **edge-aware**. A bilateral grid is predicted using downsampled image (thus faster), and final output is [sliced](https://people.csail.mit.edu/sparis/publi/2007/siggraph/Chen_07_Bilateral_Grid.pdf) from the predicted grid using the full-res image, without the need to feed the full-res image into neural network. Because of this, it consumes less memory space compared to other methods processing using full resolution image.
 
 </details>
 
-<details markdown="1"><summary>GAN Based</summary>
+<details markdown="1"><summary>GAN Based Method</summary>
 
 GAN-based approach like [Pix2Pix](https://phillipi.github.io/pix2pix/) are really powerful for image generation or style transfer, but it lacks the capability to generate a visually smooth image. The results often comes with artifacts and it is generally unacceptable for photography applications. In addition, the model size of generative model is often large and cannot achieve real-time.
 
 </details>
 
-<details markdown="1"><summary>3D LUT Based</summary>
+<details markdown="1"><summary>3D-LUT Based Method</summary>
 
 LUT-based approaches like [AdaInt](https://arxiv.org/pdf/2204.13983.pdf) and [3D LUT](https://arxiv.org/pdf/2009.14468.pdf) is a fast and visually smooth approach for image enhancement. It learns a 3D Look-up Tables (LUTs) for transfering the color in one space to the other. The learned Look-up Tables (LUTs) are a form of compact representation of color transfer just like bilateral grid. The downside of 3D LUT based methods is that they don't offer interpretable process of how model is modifying the photo, and the model size is relatively large compared to Neural Operators.
 
 </details>
 
-<details markdown="1"><summary>Sequential Retouching</summary>
+<details markdown="1"><summary>Sequential Retouching Method</summary>
 
 [Neural Operator](https://arxiv.org/pdf/2207.08080.pdf) is a novel approach for image enhancement process. Specifically, it learns how human photographers process images by sequentially applying operators on an image. It's sequential processing makes the model more interpretable. However, the original paper's approach will suffer from the runtime performance if the input image is too large.
 
@@ -73,9 +73,9 @@ The original **Neural Operator** method achieves great results on MIT-Adobe 5K d
   </center>
 </figure>
 
-To ameliorate this problem, we consider  to replace each neural operator with a modified lightweight [**HDRNet**](#HDRNetTag). This method avoided processing the full-res image "in network". Instead, it process a greatly down-sampled image and only process full-res image when applying the color transformation, which is a relatively low-cost and less-dependent on input resolution.
+To ameliorate this problem, we consider replacing each neural operator with a modified lightweight [**HDRNet**](#HDRNetTag). This method avoided processing the full-res image "in network". Instead, it process a greatly down-sampled image and only process full-res image when applying the color transformation, which is a relatively low-cost and less-dependent on input resolution.
 
-The **proposed method** combines the both benefits of HDRNet and Neural Operator. For each of the neural operator in the original architecture, I replaced it with a simplified HDRNet, which learns a affine color transformation bilateral grid. Therefore, the high-res inputs will not involve with network inference anymore, but only used in the **slice** step.
+The **proposed method** combines the both benefits of HDRNet and Neural Operator. For each of the neural operator in the original architecture, I replaced it with a simplified HDRNet, which learns a affine color transformation bilateral grid. Therefore, the high-res inputs will not involve with network inference anymore, but only used in the **slice** step. A detailed model architecture description can be found [here](#model-architecture).
 
 <figure style="width:90%">
   <img src="/images/bno/bilateral_ops_arch.jpg" alt="bilteral neural op arch"/>
@@ -170,11 +170,13 @@ Images are arranged from left to right as: `Input`, `Output`, `Target`, `Diff(Ou
 
 ### Model Architecture
 
-Our model uses multi-stage network architecture like Neural Ops, where it solves the image restoration problem step by step. For each stage, it learns a bilateral grid for input/output color transformation. The benefit of using bilateral grid instead of using sets of convolution layers is that bilateral grid is less independent to full input resolution. It first downsizes the input resolution to a low-res image (e.g. 128x128), and uses low-res image to predict a 16x64x64 bilateral grid. Each cell in this grid is the slope and bias for local affine color transformation.
+Our model uses multi-stage network architecture like Neural Ops, where it solves the image restoration problem step by step. For each stage, it learns a bilateral grid for input/output color transformation. The benefit of using bilateral grid instead of using sets of convolution layers is that bilateral grid is less dependent to full input resolution.
+
+For a single stage, it first downsizes the input resolution to a low-res image (e.g. 128x128), and uses low-res image to predict a 16x64x64 bilateral grid. Each cell in this grid contains the slope and bias for corresponding local affine color transformation. For full resolution input, we predict guidemap with a same spatial dimension for slicing through the learned grid. Slice operation will return a full resolution output and we can feed the output to the next stage if needed.
 
 <figure style="width:90%">
   <img src="/images/bno/bilateral_ops_arch.jpg" alt="bilteral neural op arch"/>
   <center>
-  <figcaption style="margin-top:5px">Fig2. Bilateral Neural Operators</figcaption>
+  <figcaption style="margin-top:5px">Fig2. Model Architecture for Bilateral Neural Operators</figcaption>
   </center>
 </figure>
