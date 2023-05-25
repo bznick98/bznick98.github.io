@@ -83,7 +83,7 @@
 	}
 
 	details {
-		margin-top: 10px;
+		margin-top: 15px;
 		p {
 			margin-top: 5px;
 			@include mq(tabletp) {
@@ -129,11 +129,11 @@
 		margin: 20px auto;
 
 		@include mq(tabletp) {
-			margin: 30px auto;
+			margin: 20px auto;
 		}
 
 		@include mq(laptop) {
-			margin: 40px auto;
+			margin: 20px auto;
 		}
 	}
 
@@ -161,19 +161,20 @@
 
 	.highlighter-rouge,
 	table {
-		margin: 20px auto;
+		margin: 10px auto;
 		width: 100%;
 
 		@include mq(tabletp) {
-			margin: 30px auto;
+			margin: 10px auto;
 		}
 
 		@include mq(tabletl) {
+			margin: 10px auto;
 			max-width: 70%;
 		}
 
 		@include mq(laptop) {
-			margin: 40px auto;
+			margin: 10px auto;
 			max-width: 70%;
 		}
 	}

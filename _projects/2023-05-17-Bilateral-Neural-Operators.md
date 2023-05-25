@@ -6,6 +6,8 @@ description:
 featured_image: '/images/bno/demo-1.png'
 ---
 
+![](/images/bno/demo-top.png)
+
 ### Problem Statement
 **Image retouching** is the process of making changes or improvements to a photograph to enhance its appearance. The inputs includes but not limit to compressed jpeg images and raw sensor data from camera, and preferably outputs an 8-bit sRGB jpeg image for display. Most of the methods enhance the image includes but not limit to exposure correction, color style adjust and white balance correction.
 
@@ -84,7 +86,7 @@ The **proposed method** combines the both benefits of HDRNet and Neural Operator
 
 ### Results (Not Finalized)
 
-Based on the results of Neural Operator paper, the proposed method achieves similar **PSNR**/**SSIM**/**ΔE** score, with a runtime faster than Neural Operator when input resolution is large (more like in real scenarios).
+Based on the results of Neural Operator paper, the proposed method achieves similar **PSNR**/**SSIM**/**ΔE** score, with a runtime faster than Neural Operator when input resolution is large (like in real scenarios).
 
 |    Model            | PSNR    | SSIM     | ΔE    | LPIPS | #params      |
 |---------------------|---------|----------|-------|--------------|--------------|
@@ -96,15 +98,31 @@ Based on the results of Neural Operator paper, the proposed method achieves simi
 | Pix2Pix             |  21.41    |  0.749     | 13.26   | - | 11,383,427  |
 | 3D-LUT              |  23.12    |  0.874     | 11.26   | - | 593,516     |
 | CSRNet              |  23.86    |  0.897     | 10.57   | - | 36,489      |
-| NeuralOp            |  24.32    |  0.907     | 9.795   |  0.045 | **28,108**   |
-| BilateralOp (ours)  |  24.22    |  0.906       |  9.830    | 0.043     |  69,012      |
+| NeuralOp (from paper)     |  **24.32**    |  **0.907**     | **9.795**   |  0.045 | **28,108**   |
+| NeuralOp (reproduced)     |  24.04    |  0.898     | 10.333   |  0.048 | **28,108**   |
+| **BilateralOp (ours)**  |  24.22    |  0.906       |  9.830    | **0.043**     |  69,012      |
 
 <figcaption style="text-align: center;">Table1. Metrics compared on FiveK Dark Dataset.</figcaption>
-<figcaption style="text-align: center;">(- means data not available)</figcaption>
 
+<figcaption style="text-align: center;font-size: 50%;margin-top:3px;">(- means data not available)</figcaption>
 
-### Visualization Comparison
-Images are arranged as **[ Input | Output | Target | Difference ]**
+I cannot reproduce the exact same results using the dataset Neural Ops authors provided (because the author only provides partial training dataset), but I did try to reproduce the best I can using the dataset I generated. Using our training data, we're able to achieve similar results for our model, and also runs faster and consumes less memory space.
+
+I also measure runtime performance of NeuralOps and BilateralOps (ours) along with its CUDA memory usage.
+
+|  Model/Resolution   | 500x300 | 1200x900 | 2500x1200 | 4000x3000 | 
+|---------------------|---------|----------|-----------|-----------|
+| NeuralOp            |  8.26 ms (121 FPS) <br/> **262 MB**   |  44.41 ms (22 FPS) <br/> **1.61 GB**    |  121.14 ms (8 FPS) <br/> **4.43 GB**  |  N/A <br/> **N/A**  |
+| **BilateralOp (ours)**  |  6.78 ms (147 FPS) <br/> **55 MB**   | 32.86 ms (30 FPS) <br/> **266 MB**    | 87.05 ms (11 FPS) <br/> **702 MB**    | 350.22 ms (2 FPS) <br/> **2.70 GB**  |
+
+<figcaption style="text-align: center;">Table2. Runtime compared on different input resolution.</figcaption>
+
+<figcaption style="text-align: center;font-size: 50%;margin-top:3px;">(N/A means model runs out-of-memory for given input resolution, time is measured per inference)</figcaption>
+
+We can see from the table that our method is faster than the Neural Op, and it is able to handle large input resolution and consumes relatively smaller memory space.
+
+### Visual Comparison
+Images are arranged from left to right as: `Input`, `Output`, `Target`, `Diff(Output,Target)`
 ###### Scene 1
 <figure style="width:70%">
   <img src="/images/bno/color-5.jpg" alt="color-5"/>
@@ -147,5 +165,16 @@ Images are arranged as **[ Input | Output | Target | Difference ]**
   <img src="/images/bno/neurop-9.jpg" alt="neurop-9"/>
   <center>
   <figcaption style="margin-top:5px">Original Neural Ops Result</figcaption>
+  </center>
+</figure>
+
+### Model Architecture
+
+Our model uses multi-stage network architecture like Neural Ops, where it solves the image restoration problem step by step. For each stage, it learns a bilateral grid for input/output color transformation. The benefit of using bilateral grid instead of using sets of convolution layers is that bilateral grid is less independent to full input resolution. It first downsizes the input resolution to a low-res image (e.g. 128x128), and uses low-res image to predict a 16x64x64 bilateral grid. Each cell in this grid is the slope and bias for local affine color transformation.
+
+<figure style="width:90%">
+  <img src="/images/bno/bilateral_ops_arch.jpg" alt="bilteral neural op arch"/>
+  <center>
+  <figcaption style="margin-top:5px">Fig2. Bilateral Neural Operators</figcaption>
   </center>
 </figure>
