@@ -113,7 +113,7 @@ Based on the results of Neural Operator paper, the proposed method achieves simi
 
 <figcaption style="text-align: center;">Table1. Metrics compared on FiveK Dark Dataset.</figcaption>
 
-<figcaption style="text-align: center;font-size: 50%;margin-top:3px;">(- means data not available)</figcaption>
+<figcaption style="text-align: center;font-size: 50%;margin-top:3px;">(- means not measured)</figcaption>
 
 I cannot reproduce the exact same results using the dataset Neural Ops authors provided (because the author only provides partial training dataset), but I did try to reproduce the best I can using the dataset I generated. Using our training data, we're able to achieve similar results for our model, and also runs faster and consumes less memory space.
 
