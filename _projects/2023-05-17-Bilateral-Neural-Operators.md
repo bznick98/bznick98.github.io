@@ -8,7 +8,7 @@ featured_image: '/images/bno/color-9.jpg'
 
 ![](/images/bno/demo-top.png)
 
-| Codes avaiable at: [https://github.com/bznick98/bilateral-image-enhance](https://github.com/bznick98/bilateral-image-enhance)
+| Codes available at: [https://github.com/bznick98/bilateral-image-enhance](https://github.com/bznick98/bilateral-image-enhance)
 
 ### Problem Statement
 **Image enhancement** is the process of making changes or improvements to a photograph to enhance its appearance. The inputs are usually low-quality or raw images (e.g. low-light, color-distorted or unprocessed raw sensor data), and preferably outputs a visually pleasing high-quality image for display. Most of the essential steps when human photographer enhances the image includes exposure correction, color style adjustment and white balance correction, etc.
