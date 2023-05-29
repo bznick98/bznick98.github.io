@@ -10,6 +10,7 @@ Input Image Sequences      |  Result
 :-------------------------:|:-------------------------:
 ![](/images/focus-stacking/fly.gif)   |  ![](/images/focus-stacking/fly-result.jpg)
 
+| Codes avaiable at: [https://github.com/bznick98/Focus_Stacking](https://github.com/bznick98/Focus_Stacking)
 
 ### What is Focus Stacking?
 Focus stacking is a technique used in photography to increase the depth of field in an image by combining multiple images taken at different focus distances into a single image with greater sharpness and clarity from foreground to background. The process involves taking multiple shots of the same scene, each with a different focus distance, and then combining them into one single clear image. [(Detailed Photography Guide)](https://phlearn.com/magazine/focus-stacking-master-best-kept-secret-sharp-photos/)
