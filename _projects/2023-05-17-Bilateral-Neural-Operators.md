@@ -1,16 +1,18 @@
 ---
 title: 'Bilateral Neural Operators'
-subtitle: 'Learning image retouching process using sequential neural operators in bilateral space.'
-date: 2023-05-17 00:00:00
+subtitle: 'Learning sequential image enhancement in bilateral space.'
+date: 2023-06-07 00:00:00
 description: 
-featured_image: '/images/bno/color-9.jpg'
+featured_image: '/images/bno/demo-2-in.png'
 ---
 
 ![](/images/bno/demo-top.png)
 
 | Codes available at: [https://github.com/bznick98/bilateral-image-enhance](https://github.com/bznick98/bilateral-image-enhance)
 
-### Problem Statement
+| Report available at: [Learning Sequential Image Enhancement in Bilateral Space](/bno-report)
+
+#### Problem Statement
 **Image enhancement** is the process of making changes or improvements to a photograph to enhance its appearance. The inputs are usually low-quality or raw images (e.g. low-light, color-distorted or unprocessed raw sensor data), and preferably outputs a visually pleasing high-quality image for display. Most of the essential steps when human photographer enhances the image includes exposure correction, color style adjustment and white balance correction, etc.
 
 Input Image      |  Result
@@ -34,7 +36,7 @@ Input Image      |  Result
 
 Image enhancement is not only useful for photographic purposes, but also helps down-stream computer vision tasks like object detection and face recognition.
 
-### Existing Methods
+#### Existing Methods
 There are numerous existing methods ranging from traditional image processing techniques like histogram equalization, and more recent approaches based on deep learning. In this context, our emphasis lies on the deep learning methods due to their superior capabilities and broader applicability.
 
 <details markdown="1"><summary>Bilateral-Grid Based Method</summary>
@@ -65,7 +67,7 @@ LUT-based approaches, such as [AdaInt](https://arxiv.org/pdf/2204.13983.pdf) and
 
 </details>
 
-### Proposed Method
+#### Proposed Method
 Rather than relying on a black-box image transformation approach, adopting a more interpretable solution similar to the [Neural Operator](#NeuralOpsTag) is a viable approach for tackling the image restoration task. By applying sequential operations to the input image, the restoration process can be broken down into stages, allowing for better interpretability and control over the transformation. To mimic how human photographers edit photos, the intermediate operators can be constrained to approximate common photographic operations such as **exposure correction**, **black clipping**, **vibrance adjustment**, **white balance adjustment**, and more. This approach not only provides a clearer understanding of how the image is being modified but also allows for fine-grained adjustments to achieve the desired restoration outcome.
 
 The original Neural Operator method has shown impressive results on the MIT-Adobe 5K dataset while maintaining a relatively small model size. However, its model architecture directly operates on the full-resolution image, leading to a constraint on the input image size. This limitation becomes particularly challenging when dealing with high-resolution inputs. (e.g. 4K)
@@ -73,31 +75,41 @@ The original Neural Operator method has shown impressive results on the MIT-Adob
 <figure style="width:70%">
   <img src="/images/bno/neural_ops_arch.jpg" alt="original neural op arch"/>
   <center>
-  <figcaption style="margin-top:5px">Model Architecture of Neural Operators</figcaption>
+  <figcaption style="margin-top:5px">Fig1. Model Architecture of Neural Operators</figcaption>
   </center>
 </figure>
 
 To address the challenge of processing high-resolution images in the original Neural Operator method, one possible approach is to replace each neural operator with a modified lightweight [**HDRNet**](#HDRNetTag). This alternative method avoids processing the full-resolution image "in network." Instead, it initially operates on a significantly down-sampled version of the image, reducing the computational burden. The full-resolution image is only processed when applying the color transformation ([slicing]((https://people.csail.mit.edu/sparis/publi/2007/siggraph/Chen_07_Bilateral_Grid.pdf))), which is a relatively low-cost operation and less dependent on the input resolution. By adopting this strategy, the computational and memory requirements for processing high-resolution images can be alleviated, making the method more practical and efficient.
 
-A more detailed description of propsed model architecture that combines both the advantages of Neural Ops and HDRNet can be found [here](#model-architecture).
+A more detailed description of propsed model architecture that combines both the advantages of Neural Ops and HDRNet can be found in the [next section](#model-architecture).
+
+#### Model Architecture
+
+Our model uses multi-stage network architecture like Neural Ops, where it solves the image restoration problem step by step. For each stage, it learns a bilateral grid for input/output color transformation. The benefit of using bilateral grid instead of using sets of convolution layers is that bilateral grid is less dependent to full input resolution.
+
+For a single stage, it first downsizes the input resolution to a low-res image (e.g. **3x256x256**), and uses low-res image to predict a **8x64x64** bilateral grid. Each cell in this grid contains the slope and bias for corresponding local affine color transformation. For full resolution input, we predict guidemap with a same spatial dimension for slicing through the learned grid. Slice operation will return a full resolution output and we can feed the output to the next stage if needed.
 
 <figure style="width:90%">
   <img src="/images/bno/bilateral_ops_arch.jpg" alt="bilteral neural op arch"/>
   <center>
-  <figcaption style="margin-top:5px">Model Architecture of Bilateral Neural Operators</figcaption>
+  <figcaption style="margin-top:5px">Fig2. Model Architecture of Our Method</figcaption>
   </center>
 </figure>
 
-### Dataset
+#### Dataset
 A commonly used dataset for evaluating image enhancement process is [MIT-Adobe-5K](https://data.csail.mit.edu/graphics/fivek/). This dataset consists of 5,000 raw images in 16-bit TIFF format. In order to make a fair comparison with the Neural Ops paper, we decided to use the exact processed dataset they used, which was originally provided by [CSRNet](https://github.com/hejingwenhejingwen/CSRNet) (referred to as FiveK-Dark).
 
 For training set, the Neural Ops paper selected 4,500 images from the dataset, while the remaining 500 images were reserved for testing. All the images in the dataset were cropped to a resolution of 500x300 or 300x500, depending on the orientation of the image. The training images are in the format of 16-bit TIFF raw files, while the target images are in 8-bit sRGB JPEG format.
 
 Additionally, we intend to evaluate our models on low-light image datasets such as [LOL](https://daooshee.github.io/BMVC2018website/) and [VE-LOL](https://flyywh.github.io/IJCV2021LowLight_VELOL/). In these datasets, the input images are captured under low-light conditions, while the corresponding target images are high-quality images with correct exposure.
 
-### Results (Not Finalized)
 
-Based on the results of Neural Operator paper, the proposed method achieves similar **PSNR**/**SSIM**/**ΔE** score, with a runtime faster than Neural Operator when input resolution is large (like in real scenarios).
+#### Loss Function
+We experimented numerous loss functions for model training, ranging from classical **L1/L2** loss to recently proposed **SSIM-L1** and **Deep Histogram Match Loss**. Our experimentations shows that SSIM-L1 helps model achieve superior results in terms of intensity, while Deep Histogram Match Loss helps achieve great color consistent results than simply using L1 loss.
+
+#### Qualitative Results
+
+We evaluated our method along with the results from the paper NeuralOps. To be fairly compared with Neural Ops, we used our own initialization dataset instead of the one provided by them for evaluating their model (marked as NeuralOps*). We also reported their claimed performance for reference. Detailed quantitative image metric reports are shown in the table below. The reason that there is a gap between the reproduced result and the officially claimed results is that they did not provide the full initialization dataset (only half was provided). All other methods are reported as-is from the NeuralOps paper.
 
 |    Model            | PSNR    | SSIM     | ΔE    | LPIPS | #params      |
 |---------------------|---------|----------|-------|--------------|--------------|
@@ -117,9 +129,7 @@ Based on the results of Neural Operator paper, the proposed method achieves simi
 
 <figcaption style="text-align: center;font-size: 50%;margin-top:3px;">(- means not measured)</figcaption>
 
-I cannot reproduce the exact same results using the dataset Neural Ops authors provided (because the author only provides partial training dataset), but I did try to reproduce the best I can using the dataset I generated. Using our training data, we're able to achieve similar results for our model, and also runs faster and consumes less memory space.
-
-I also measured runtime performance of NeuralOps and BilateralOps (ours) along with its CUDA memory usage.
+We also measured runtime and memory consumption for Neural Operator and our method Bilateral Operator. The table below shows that our methods achieves similar image enhancement results while maintaining a much smaller memory consumption and faster inference speed, allowing for higher resolution input and more potential on mobile devices.
 
 |  Model/Resolution   | 500x300 | 1200x900 | 2500x1200 | 4000x3000 | 
 |---------------------|---------|----------|-----------|-----------|
@@ -132,8 +142,10 @@ I also measured runtime performance of NeuralOps and BilateralOps (ours) along w
 
 We can see from the table that our method is faster than the Neural Op, and it is able to handle large input resolution and consumes relatively smaller memory space.
 
-### Visual Comparison
-Images are arranged from left to right as: `Input`, `Output`, `Target`, `Diff`. `Diff` is calculated from absolute error between `Output` and `Target`.  
+#### Visual Results
+To make it easier to understand the strengths and weaknesses of the model, we show the visualization of our model for randomly selected four scenes in figure below. The images are displayed from left to right, starting with the **input image**, followed by the **output image**, the **target image**, and **the L2 difference between the output and target images**. 
+
+By examining these visuals and analyzing our measurements, we find that our model produces excellent results in terms of structural similarity (SSIM). However, there are occasional instances where the colors in the output image differ from the target image, which cannot be fully captured by the SSIM metric alone.
 ###### Scene 1
 <figure style="width:70%">
   <img src="/images/bno/color-5.jpg" alt="color-5"/>
@@ -179,22 +191,17 @@ Images are arranged from left to right as: `Input`, `Output`, `Target`, `Diff`. 
   </center>
 </figure>
 
-### Model Architecture
 
-Our model uses multi-stage network architecture like Neural Ops, where it solves the image restoration problem step by step. For each stage, it learns a bilateral grid for input/output color transformation. The benefit of using bilateral grid instead of using sets of convolution layers is that bilateral grid is less dependent to full input resolution.
+#### Implementation & Training
 
-For a single stage, it first downsizes the input resolution to a low-res image (e.g. 128x128), and uses low-res image to predict a 16x64x64 bilateral grid. Each cell in this grid contains the slope and bias for corresponding local affine color transformation. For full resolution input, we predict guidemap with a same spatial dimension for slicing through the learned grid. Slice operation will return a full resolution output and we can feed the output to the next stage if needed.
+The model is implemented in **PyTorch** with a style similar to Neural Operators, utilizing a **yaml** configuration system to maintain each experiment setting.
 
-<figure style="width:90%">
-  <img src="/images/bno/bilateral_ops_arch.jpg" alt="bilteral neural op arch"/>
-  <center>
-  <figcaption style="margin-top:5px">Fig2. Model Architecture for Bilateral Neural Operators</figcaption>
-  </center>
-</figure>
+For MIT-Adobe-5K dataset, we used **two-phase** training strategy. In the **Phase-I**, only the bilateral neural operators are trained individually by randomly selecting pairs of enhanced image with the corresponding value. Given intensity values and desired outputs, our model is trained to reproduce the results as much as possible. In the **Phase-II**, we incorporated an encoder and a operator intensity predictor for each pre-trained bilateral operator and jointly train them together.
 
-### Implementation
-The **training** process is separated into two major stages.
-- Stage 1: Initialize individual operators
-  - We first pre-train each individual operators to approximate photographic operators like, black-clipping (**BC**), exposure correction (**EX**), white balance (**WB**) and vibrance adjustment (**VB**). For each type of operators, we generate a sets of images that are only adjusted by that corresponding operation in *Adobe Lightroom* similar to Neural Op's approach.
-- Stage 2: Jointly train model with initialized operators
-  - Our proposed model includes same operator as the ones initialized in the previous step. We first load the weights from pre-trained operators and then starts training the entire model.
+We used Adam Optimizer with 10e−8 weight decay, 0.9 beta1 and 0.99 beta2, using batch size of 1 trained 400 epochs for **Phase-I** and 134 epochs for **Phase-II**.
+
+#### Conclusion
+In our study, we conducted an investigation into various model designs with the goal of enhancing the efficiency of the Neural Operator, a sequential image retouching method. Through our efforts, we successfully achieved competitive results, demonstrating **faster runtime** and **reduced memory consumption** compared to previous approaches. However, further work is needed to refine operator initialization schemes to better overcome color shifts problem in our results. For example, during Phase-II training, we could design specific losses for each operator’s output, makeing them to closely approximate the image operators in Adobe Lightroom. Overall, this work contributes by reviewing recent methods, introducing a novel model architecture, and improving the efficiency of the Neural Operator for more practical and more accurate image enhancement.
+
+#### References
+Please see [pdf report](/bno-report) for references.
