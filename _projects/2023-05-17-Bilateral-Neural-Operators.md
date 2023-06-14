@@ -6,7 +6,7 @@ description:
 featured_image: '/images/bno/demo-2-in.png'
 ---
 
-![](/images/bno/demo-top.png)
+<!-- ![](/images/bno/demo-top.png) -->
 
 | Codes available at: [https://github.com/bznick98/bilateral-image-enhance](https://github.com/bznick98/bilateral-image-enhance)
 
