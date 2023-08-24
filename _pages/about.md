@@ -7,7 +7,7 @@ featured_image: /images/gallery/meili.jpg
 
 <img src="/images/face/zb-circle.png" alt="drawing" width="200"/>
 
-Hello, I'm **Zongnan Bao** (鲍宗南) and I'm currently pursuing a Master's degree in Computer Science at **UCLA**. I received my Bachelor's degree in Computer Engineering from the **University of Illinois at Urbana Champaign** in 2021.
+Hello, I'm **Zongnan Bao** (鲍宗南), I received my Master's degree in Computer Science at **UCLA** in 2023, and received my Bachelor's degree in Computer Engineering at **University of Illinois at Urbana Champaign** in 2021.
 
 Aside from academics, I have a passion for photography and I enjoy sharing my works online. I am proud to say that I am a top-1000 contributor on [Unsplash](https://unsplash.com/@nick19981122), as well as a Getty Images Contributor. All of my latest photographs are available for free download on Unsplash. Additionally, I have a love for music and started playing classical guitar, but have since transitioned to playing fingerstyle acoustic guitar. 
 
@@ -27,9 +27,9 @@ Aside from academics, I have a passion for photography and I enjoy sharing my wo
 <img src="/images/misc/qualcomm.png" alt="qualcomm-logo" width="200" align="right"/>
 
 ###### [Qualcomm](https://www.qualcomm.com/home)
-<small>**Camera Architect** - In coming</small>
+<small>**Camera ISP System Architect** - Present</small>
 
-TBD...
+Making phone camera better.
 
 
 <img src="/images/misc/dolby.png" alt="dolby-logo" width="180" align="right"/>
