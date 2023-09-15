@@ -1,7 +1,7 @@
 ---
 title: 'Mountains'
 subtitle: 'Mountains'
-date: 2023-02-17 00:00:00
+date: 0002-02-17 00:00:00
 description: 
 featured_image: '/images/gallery/anmq.jpg'
 ---
@@ -30,7 +30,7 @@ featured_image: '/images/gallery/anmq.jpg'
 </div>
 
 <!-- Content -->
-<div class="gallery" data-columns="3" style="margin-top:200px">
+<div class="gallery" data-columns="6" style="margin-top:80px">
     <img src="/images/gallery/lbyz.jpg">
     <img src="/images/gallery/slowmo_boomerang.gif">
     <img src="/images/gallery/anmq.jpg">

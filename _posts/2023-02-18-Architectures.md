@@ -1,7 +1,7 @@
 ---
 title: 'Architectures'
 subtitle: 'Architectures'
-date: 2023-02-18 00:00:00
+date: 0002-02-18 00:00:00
 description: 
 featured_image: '/images/gallery/geisel.jpg'
 ---
@@ -18,7 +18,7 @@ featured_image: '/images/gallery/geisel.jpg'
 
 
 <!-- Content -->
-<div class="gallery" data-columns="3" style="margin-top:200px">
+<div class="gallery" data-columns="6" style="margin-top:80px">
     <img src="/images/gallery/geisel.jpg">
     <img src="/images/gallery/village.jpg">
     <img src="/images/gallery/atlanta.jpg">
