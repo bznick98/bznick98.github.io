@@ -7,7 +7,7 @@ featured_image: '/images/gallery/nyc/central-park.jpg'
 ---
 
 <!-- Preview -->
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="2">
     <img src="/images/gallery/nyc/building-light.jpg"> 
     <img src="/images/gallery/nyc/car.jpg"> 
     <img src="/images/gallery/nyc/central-park.jpg">

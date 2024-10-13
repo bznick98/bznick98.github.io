@@ -1,13 +1,12 @@
 ---
 title: 'Mountains'
 subtitle: 'Mountains'
-date: 0002-02-17 00:00:00
+date: 0000-02-17 00:00:00
 description: 
 featured_image: '/images/gallery/anmq.jpg'
 ---
-
-<!-- Preview -->
-<div class="gallery" data-columns="1" >
+<!-- Content -->
+<div class="gallery" data-columns="2">
     <img src="/images/gallery/lbyz.jpg">
     <img src="/images/gallery/slowmo_boomerang.gif">
     <img src="/images/gallery/anmq.jpg">
@@ -29,7 +28,7 @@ featured_image: '/images/gallery/anmq.jpg'
     <img src="/images/gallery/IjenLake.jpg">
 </div>
 
-<!-- Content -->
+<!-- Preview -->
 <div class="gallery" data-columns="6" style="margin-top:80px">
     <img src="/images/gallery/lbyz.jpg">
     <img src="/images/gallery/slowmo_boomerang.gif">

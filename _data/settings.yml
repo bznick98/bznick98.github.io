@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Zongnan Bao
-  site_tagline: Student, Developer, Photographer
+  site_tagline: 鲍 宗南
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -59,8 +59,8 @@ social_settings:
   unsplash_url: 'https://unsplash.com/@nick19981122'
 
 color_settings:
-  background_color: '#ffffff'
-  background_alt_color: '#F5F7FA'
+  background_color: '#f9f9f9'
+  background_alt_color: '#f9f9f9' # # '#F5F7FA'
   text_dark_color: '#2A2F36'
   text_medium_color: '#5F6C7B'
   text_light_color: '#ABB7B7'

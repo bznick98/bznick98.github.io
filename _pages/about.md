@@ -9,14 +9,15 @@ featured_image: /images/gallery/meili.jpg
 
 Hello, I'm **Zongnan Bao** (鲍宗南), I received my Master's degree in Computer Science at **UCLA** in 2023, and received my Bachelor's degree in Computer Engineering at **University of Illinois at Urbana Champaign** in 2021.
 
-Aside from academics, I have a passion for photography and I enjoy sharing my works online. I am proud to say that I am a top-1000 contributor on [Unsplash](https://unsplash.com/@nick19981122), as well as a Getty Images Contributor. All of my latest photographs are available for free download on Unsplash. Additionally, I have a love for music and started playing classical guitar, but have since transitioned to playing fingerstyle acoustic guitar. 
+<!-- Aside from work & academics, I have a passion for photography and I enjoy sharing my photographs. I am proud to say that I am a top-1000 contributor on , as well as a Getty Images Contributor. All of my latest photographs are available for free download on Unsplash. Additionally, I have a love for music and started playing classical guitar, but have since transitioned to playing fingerstyle acoustic guitar.  -->
+Outside of work and academics, I love photography and enjoy sharing my work -- I'm honored to be a top 1,000 contributor on [Unsplash](https://unsplash.com/@nick19981122), gaining over 200M views and over 1M downloads. You can find my latest photos available for free on Unsplash. I also have a passion for music, started with classical guitar and later exploring fingerstyle.
 
 
 
 <br>
 <br>
 <center>
-    <a href="/resume" class="button button--large">View Resume</a>
+    <a href="/resume" class="button button--large">Resume.pdf</a>
 </center>
 
 
@@ -27,9 +28,9 @@ Aside from academics, I have a passion for photography and I enjoy sharing my wo
 <img src="/images/misc/qualcomm.png" alt="qualcomm-logo" width="200" align="right"/>
 
 ###### [Qualcomm](https://www.qualcomm.com/home)
-<small>**Camera ISP System Architect** - Present</small>
+<small>**Camera System Architect** - Present</small>
 
-Making phone camera better.
+Working on system architecture modeling for Qualcomm Spectra ISP.
 
 
 <img src="/images/misc/dolby.png" alt="dolby-logo" width="180" align="right"/>
