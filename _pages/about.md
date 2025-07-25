@@ -38,7 +38,7 @@ Working on system architecture modeling for Qualcomm Spectra ISP.
 ###### [Dolby Laboratories](https://www.dolby.com/)
 <small>**Image Engineering Intern** - 6 Months</small>
 
-During my time at Dolby, I had the opportunity to work as an Image Engineering Intern. My main project was focused on restoring image metadata from HDR/SDR pairs using Particle Swarm Optimization (PSO) for [Dolby Vision](https://www.dolby.com/technologies/dolby-vision/). Additionally, I conducted research and successfully implemented deep learning papers for enhancing HDR photos. The project was successfully converted to a U.S. Provisional Patent No. 63/425,814 titled <small>"Estimating Metadata for Images Having Absent Metadata or Unusable Form of Metadata"</small> filed on Nov 16, 2022.
+During my time at Dolby, I had the opportunity to work as an Image Engineering Intern. My main project was focused on restoring image metadata from HDR/SDR pairs using Particle Swarm Optimization (PSO) for [Dolby Vision](https://www.dolby.com/technologies/dolby-vision/). Additionally, I conducted research and successfully implemented deep learning papers for enhancing HDR photos. The project was successfully converted to a Patent titled [Estimating Metadata for Images Having Absent Metadata or Unusable Form of Metadata](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024107472).
 
 
 <img src="/images/misc/yitu.png" alt="yitu-logo" width="200" align="right"/>
@@ -101,9 +101,10 @@ As a Computer Vision Research Intern at YITU Technology, I was part of a team fo
 
 </details>
 
+### Patent
+[Estimating Metadata for Images Having Absent Metadata or Unusable Form of Metadata](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024107472) - Dolby Laboratories, Inc.
+
 ### Projects
 See [projects]({{site.baseurl}}/project) for more detail, will add more projects in the future.
-
-
 
 
