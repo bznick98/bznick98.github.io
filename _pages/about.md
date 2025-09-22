@@ -25,15 +25,22 @@ Outside of work and academics, I love photography and enjoy sharing my work -- I
 
 ### Experience
 
-<img src="/images/misc/qualcomm.png" alt="qualcomm-logo" width="200" align="right"/>
+<img src="/images/misc/apple.png" alt="apple-logo" width="50" align="right"/>
+
+###### [Apple](https://www.apple.com/)
+<small>**Hardware and Software Modeling Engineer** - Present</small>
+
+Working on performance modeling and analysis for Apple Silicons.
+
+<img src="/images/misc/qualcomm.png" alt="qualcomm-logo" width="180" align="right"/>
 
 ###### [Qualcomm](https://www.qualcomm.com/home)
-<small>**Camera System Architect** - Present</small>
+<small>**Camera System Architect** - 2 years & 2 months</small>
 
-Working on system architecture modeling for Qualcomm Spectra ISP.
+I spent over two years at Qualcomm as a Camera System Architecture Engineer working on Qualcomm Spectra ISP, where I focused on modeling and analyzing next-generation imaging pipelines. By developing frameworks to simulate camera dataflows and evaluate new architectural ideas, I helped guide early design decisions that improved efficiency, performance, and overall user experience in future mobile imaging solutions.
 
 
-<img src="/images/misc/dolby.png" alt="dolby-logo" width="180" align="right"/>
+<img src="/images/misc/dolby.png" alt="dolby-logo" width="160" align="right"/>
 
 ###### [Dolby Laboratories](https://www.dolby.com/)
 <small>**Image Engineering Intern** - 6 Months</small>
